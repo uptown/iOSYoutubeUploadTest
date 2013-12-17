@@ -16,8 +16,132 @@
 		C58296F118603CE8003AB713 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C58296EF18603CE8003AB713 /* Main.storyboard */; };
 		C58296F418603CE8003AB713 /* YTViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C58296F318603CE8003AB713 /* YTViewController.m */; };
 		C58296F618603CE8003AB713 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C58296F518603CE8003AB713 /* Images.xcassets */; };
-		C582971318603DFA003AB713 /* GooglePlus.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C582971218603DFA003AB713 /* GooglePlus.framework */; };
-		C582971518603DFE003AB713 /* GoogleOpenSource.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C582971418603DFE003AB713 /* GoogleOpenSource.framework */; };
+		C582971718604211003AB713 /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C582971618604211003AB713 /* AddressBook.framework */; };
+		C582971918604217003AB713 /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C582971818604217003AB713 /* AssetsLibrary.framework */; };
+		C582971B1860421F003AB713 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C582971A1860421F003AB713 /* CoreLocation.framework */; };
+		C582971D18604226003AB713 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C582971C18604226003AB713 /* CoreMotion.framework */; };
+		C582971F1860422F003AB713 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C582971E1860422F003AB713 /* CoreText.framework */; };
+		C582972118604235003AB713 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C582972018604235003AB713 /* MediaPlayer.framework */; };
+		C58297231860423A003AB713 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C58297221860423A003AB713 /* Security.framework */; };
+		C582972518604240003AB713 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C582972418604240003AB713 /* SystemConfiguration.framework */; };
+		C5829A341860A465003AB713 /* MediaToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5829A321860A465003AB713 /* MediaToolbox.framework */; };
+		C5829A351860A465003AB713 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5829A331860A465003AB713 /* CoreMedia.framework */; };
+		C5E919EF1860C855003AA3D7 /* GTLQueryYouTube.m in Sources */ = {isa = PBXBuildFile; fileRef = C5E9190A1860C854003AA3D7 /* GTLQueryYouTube.m */; };
+		C5E919F01860C855003AA3D7 /* GTLServiceYouTube.m in Sources */ = {isa = PBXBuildFile; fileRef = C5E9190C1860C854003AA3D7 /* GTLServiceYouTube.m */; };
+		C5E919F21860C855003AA3D7 /* GTLYouTubeAccessPolicy.m in Sources */ = {isa = PBXBuildFile; fileRef = C5E919101860C854003AA3D7 /* GTLYouTubeAccessPolicy.m */; };
+		C5E919F31860C855003AA3D7 /* GTLYouTubeActivity.m in Sources */ = {isa = PBXBuildFile; fileRef = C5E919121860C854003AA3D7 /* GTLYouTubeActivity.m */; };
+		C5E919F41860C855003AA3D7 /* GTLYouTubeActivityContentDetails.m in Sources */ = {isa = PBXBuildFile; fileRef = C5E919141860C854003AA3D7 /* GTLYouTubeActivityContentDetails.m */; };
+		C5E919F51860C855003AA3D7 /* GTLYouTubeActivityContentDetailsBulletin.m in Sources */ = {isa = PBXBuildFile; fileRef = C5E919161860C854003AA3D7 /* GTLYouTubeActivityContentDetailsBulletin.m */; };
+		C5E919F61860C855003AA3D7 /* GTLYouTubeActivityContentDetailsChannelItem.m in Sources */ = {isa = PBXBuildFile; fileRef = C5E919181860C854003AA3D7 /* GTLYouTubeActivityContentDetailsChannelItem.m */; };
+		C5E919F71860C855003AA3D7 /* GTLYouTubeActivityContentDetailsComment.m in Sources */ = {isa = PBXBuildFile; fileRef = C5E9191A1860C854003AA3D7 /* GTLYouTubeActivityContentDetailsComment.m */; };
+		C5E919F81860C855003AA3D7 /* GTLYouTubeActivityContentDetailsFavorite.m in Sources */ = {isa = PBXBuildFile; fileRef = C5E9191C1860C854003AA3D7 /* GTLYouTubeActivityContentDetailsFavorite.m */; };
+		C5E919F91860C855003AA3D7 /* GTLYouTubeActivityContentDetailsLike.m in Sources */ = {isa = PBXBuildFile; fileRef = C5E9191E1860C854003AA3D7 /* GTLYouTubeActivityContentDetailsLike.m */; };
+		C5E919FA1860C855003AA3D7 /* GTLYouTubeActivityContentDetailsPlaylistItem.m in Sources */ = {isa = PBXBuildFile; fileRef = C5E919201860C854003AA3D7 /* GTLYouTubeActivityContentDetailsPlaylistItem.m */; };
+		C5E919FB1860C855003AA3D7 /* GTLYouTubeActivityContentDetailsPromotedItem.m in Sources */ = {isa = PBXBuildFile; fileRef = C5E919221860C854003AA3D7 /* GTLYouTubeActivityContentDetailsPromotedItem.m */; };
+		C5E919FC1860C855003AA3D7 /* GTLYouTubeActivityContentDetailsRecommendation.m in Sources */ = {isa = PBXBuildFile; fileRef = C5E919241860C854003AA3D7 /* GTLYouTubeActivityContentDetailsRecommendation.m */; };
+		C5E919FD1860C855003AA3D7 /* GTLYouTubeActivityContentDetailsSocial.m in Sources */ = {isa = PBXBuildFile; fileRef = C5E919261860C854003AA3D7 /* GTLYouTubeActivityContentDetailsSocial.m */; };
+		C5E919FE1860C855003AA3D7 /* GTLYouTubeActivityContentDetailsSubscription.m in Sources */ = {isa = PBXBuildFile; fileRef = C5E919281860C854003AA3D7 /* GTLYouTubeActivityContentDetailsSubscription.m */; };
+		C5E919FF1860C855003AA3D7 /* GTLYouTubeActivityContentDetailsUpload.m in Sources */ = {isa = PBXBuildFile; fileRef = C5E9192A1860C854003AA3D7 /* GTLYouTubeActivityContentDetailsUpload.m */; };
+		C5E91A001860C855003AA3D7 /* GTLYouTubeActivityListResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = C5E9192C1860C854003AA3D7 /* GTLYouTubeActivityListResponse.m */; };
+		C5E91A011860C855003AA3D7 /* GTLYouTubeActivitySnippet.m in Sources */ = {isa = PBXBuildFile; fileRef = C5E9192E1860C854003AA3D7 /* GTLYouTubeActivitySnippet.m */; };
+		C5E91A021860C855003AA3D7 /* GTLYouTubeCdnSettings.m in Sources */ = {isa = PBXBuildFile; fileRef = C5E919301860C854003AA3D7 /* GTLYouTubeCdnSettings.m */; };
+		C5E91A031860C855003AA3D7 /* GTLYouTubeChannel.m in Sources */ = {isa = PBXBuildFile; fileRef = C5E919321860C854003AA3D7 /* GTLYouTubeChannel.m */; };
+		C5E91A041860C855003AA3D7 /* GTLYouTubeChannelAuditDetails.m in Sources */ = {isa = PBXBuildFile; fileRef = C5E919341860C854003AA3D7 /* GTLYouTubeChannelAuditDetails.m */; };
+		C5E91A051860C855003AA3D7 /* GTLYouTubeChannelBannerResource.m in Sources */ = {isa = PBXBuildFile; fileRef = C5E919361860C854003AA3D7 /* GTLYouTubeChannelBannerResource.m */; };
+		C5E91A061860C855003AA3D7 /* GTLYouTubeChannelBrandingSettings.m in Sources */ = {isa = PBXBuildFile; fileRef = C5E919381860C854003AA3D7 /* GTLYouTubeChannelBrandingSettings.m */; };
+		C5E91A071860C855003AA3D7 /* GTLYouTubeChannelContentDetails.m in Sources */ = {isa = PBXBuildFile; fileRef = C5E9193A1860C854003AA3D7 /* GTLYouTubeChannelContentDetails.m */; };
+		C5E91A081860C855003AA3D7 /* GTLYouTubeChannelConversionPing.m in Sources */ = {isa = PBXBuildFile; fileRef = C5E9193C1860C854003AA3D7 /* GTLYouTubeChannelConversionPing.m */; };
+		C5E91A091860C855003AA3D7 /* GTLYouTubeChannelConversionPings.m in Sources */ = {isa = PBXBuildFile; fileRef = C5E9193E1860C854003AA3D7 /* GTLYouTubeChannelConversionPings.m */; };
+		C5E91A0A1860C855003AA3D7 /* GTLYouTubeChannelListResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = C5E919401860C854003AA3D7 /* GTLYouTubeChannelListResponse.m */; };
+		C5E91A0B1860C855003AA3D7 /* GTLYouTubeChannelSettings.m in Sources */ = {isa = PBXBuildFile; fileRef = C5E919421860C854003AA3D7 /* GTLYouTubeChannelSettings.m */; };
+		C5E91A0C1860C855003AA3D7 /* GTLYouTubeChannelSnippet.m in Sources */ = {isa = PBXBuildFile; fileRef = C5E919441860C854003AA3D7 /* GTLYouTubeChannelSnippet.m */; };
+		C5E91A0D1860C855003AA3D7 /* GTLYouTubeChannelStatistics.m in Sources */ = {isa = PBXBuildFile; fileRef = C5E919461860C854003AA3D7 /* GTLYouTubeChannelStatistics.m */; };
+		C5E91A0E1860C855003AA3D7 /* GTLYouTubeChannelStatus.m in Sources */ = {isa = PBXBuildFile; fileRef = C5E919481860C854003AA3D7 /* GTLYouTubeChannelStatus.m */; };
+		C5E91A0F1860C855003AA3D7 /* GTLYouTubeChannelTopicDetails.m in Sources */ = {isa = PBXBuildFile; fileRef = C5E9194A1860C854003AA3D7 /* GTLYouTubeChannelTopicDetails.m */; };
+		C5E91A101860C855003AA3D7 /* GTLYouTubeConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = C5E9194C1860C854003AA3D7 /* GTLYouTubeConstants.m */; };
+		C5E91A111860C855003AA3D7 /* GTLYouTubeContentRating.m in Sources */ = {isa = PBXBuildFile; fileRef = C5E9194E1860C854003AA3D7 /* GTLYouTubeContentRating.m */; };
+		C5E91A121860C855003AA3D7 /* GTLYouTubeGeoPoint.m in Sources */ = {isa = PBXBuildFile; fileRef = C5E919501860C854003AA3D7 /* GTLYouTubeGeoPoint.m */; };
+		C5E91A131860C855003AA3D7 /* GTLYouTubeGuideCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = C5E919521860C854003AA3D7 /* GTLYouTubeGuideCategory.m */; };
+		C5E91A141860C855003AA3D7 /* GTLYouTubeGuideCategoryListResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = C5E919541860C854003AA3D7 /* GTLYouTubeGuideCategoryListResponse.m */; };
+		C5E91A151860C855003AA3D7 /* GTLYouTubeGuideCategorySnippet.m in Sources */ = {isa = PBXBuildFile; fileRef = C5E919561860C854003AA3D7 /* GTLYouTubeGuideCategorySnippet.m */; };
+		C5E91A161860C855003AA3D7 /* GTLYouTubeImageSettings.m in Sources */ = {isa = PBXBuildFile; fileRef = C5E919581860C854003AA3D7 /* GTLYouTubeImageSettings.m */; };
+		C5E91A171860C855003AA3D7 /* GTLYouTubeIngestionInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = C5E9195A1860C854003AA3D7 /* GTLYouTubeIngestionInfo.m */; };
+		C5E91A181860C855003AA3D7 /* GTLYouTubeInvideoBranding.m in Sources */ = {isa = PBXBuildFile; fileRef = C5E9195C1860C854003AA3D7 /* GTLYouTubeInvideoBranding.m */; };
+		C5E91A191860C855003AA3D7 /* GTLYouTubeInvideoPosition.m in Sources */ = {isa = PBXBuildFile; fileRef = C5E9195E1860C854003AA3D7 /* GTLYouTubeInvideoPosition.m */; };
+		C5E91A1A1860C855003AA3D7 /* GTLYouTubeInvideoPromotion.m in Sources */ = {isa = PBXBuildFile; fileRef = C5E919601860C854003AA3D7 /* GTLYouTubeInvideoPromotion.m */; };
+		C5E91A1B1860C855003AA3D7 /* GTLYouTubeInvideoTiming.m in Sources */ = {isa = PBXBuildFile; fileRef = C5E919621860C854003AA3D7 /* GTLYouTubeInvideoTiming.m */; };
+		C5E91A1C1860C855003AA3D7 /* GTLYouTubeLiveBroadcast.m in Sources */ = {isa = PBXBuildFile; fileRef = C5E919641860C854003AA3D7 /* GTLYouTubeLiveBroadcast.m */; };
+		C5E91A1D1860C855003AA3D7 /* GTLYouTubeLiveBroadcastContentDetails.m in Sources */ = {isa = PBXBuildFile; fileRef = C5E919661860C854003AA3D7 /* GTLYouTubeLiveBroadcastContentDetails.m */; };
+		C5E91A1E1860C855003AA3D7 /* GTLYouTubeLiveBroadcastListResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = C5E919681860C854003AA3D7 /* GTLYouTubeLiveBroadcastListResponse.m */; };
+		C5E91A1F1860C855003AA3D7 /* GTLYouTubeLiveBroadcastSnippet.m in Sources */ = {isa = PBXBuildFile; fileRef = C5E9196A1860C854003AA3D7 /* GTLYouTubeLiveBroadcastSnippet.m */; };
+		C5E91A201860C855003AA3D7 /* GTLYouTubeLiveBroadcastStatus.m in Sources */ = {isa = PBXBuildFile; fileRef = C5E9196C1860C854003AA3D7 /* GTLYouTubeLiveBroadcastStatus.m */; };
+		C5E91A211860C855003AA3D7 /* GTLYouTubeLiveStream.m in Sources */ = {isa = PBXBuildFile; fileRef = C5E9196E1860C854003AA3D7 /* GTLYouTubeLiveStream.m */; };
+		C5E91A221860C855003AA3D7 /* GTLYouTubeLiveStreamContentDetails.m in Sources */ = {isa = PBXBuildFile; fileRef = C5E919701860C854003AA3D7 /* GTLYouTubeLiveStreamContentDetails.m */; };
+		C5E91A231860C855003AA3D7 /* GTLYouTubeLiveStreamListResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = C5E919721860C854003AA3D7 /* GTLYouTubeLiveStreamListResponse.m */; };
+		C5E91A241860C855003AA3D7 /* GTLYouTubeLiveStreamSnippet.m in Sources */ = {isa = PBXBuildFile; fileRef = C5E919741860C854003AA3D7 /* GTLYouTubeLiveStreamSnippet.m */; };
+		C5E91A251860C855003AA3D7 /* GTLYouTubeLiveStreamStatus.m in Sources */ = {isa = PBXBuildFile; fileRef = C5E919761860C854003AA3D7 /* GTLYouTubeLiveStreamStatus.m */; };
+		C5E91A261860C855003AA3D7 /* GTLYouTubeLocalizedProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = C5E919781860C854003AA3D7 /* GTLYouTubeLocalizedProperty.m */; };
+		C5E91A271860C855003AA3D7 /* GTLYouTubeLocalizedString.m in Sources */ = {isa = PBXBuildFile; fileRef = C5E9197A1860C854003AA3D7 /* GTLYouTubeLocalizedString.m */; };
+		C5E91A281860C855003AA3D7 /* GTLYouTubeMonitorStreamInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = C5E9197C1860C854003AA3D7 /* GTLYouTubeMonitorStreamInfo.m */; };
+		C5E91A291860C855003AA3D7 /* GTLYouTubePageInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = C5E9197E1860C854003AA3D7 /* GTLYouTubePageInfo.m */; };
+		C5E91A2A1860C855003AA3D7 /* GTLYouTubePlaylist.m in Sources */ = {isa = PBXBuildFile; fileRef = C5E919801860C854003AA3D7 /* GTLYouTubePlaylist.m */; };
+		C5E91A2B1860C855003AA3D7 /* GTLYouTubePlaylistContentDetails.m in Sources */ = {isa = PBXBuildFile; fileRef = C5E919821860C854003AA3D7 /* GTLYouTubePlaylistContentDetails.m */; };
+		C5E91A2C1860C855003AA3D7 /* GTLYouTubePlaylistItem.m in Sources */ = {isa = PBXBuildFile; fileRef = C5E919841860C854003AA3D7 /* GTLYouTubePlaylistItem.m */; };
+		C5E91A2D1860C855003AA3D7 /* GTLYouTubePlaylistItemContentDetails.m in Sources */ = {isa = PBXBuildFile; fileRef = C5E919861860C854003AA3D7 /* GTLYouTubePlaylistItemContentDetails.m */; };
+		C5E91A2E1860C855003AA3D7 /* GTLYouTubePlaylistItemListResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = C5E919881860C854003AA3D7 /* GTLYouTubePlaylistItemListResponse.m */; };
+		C5E91A2F1860C855003AA3D7 /* GTLYouTubePlaylistItemSnippet.m in Sources */ = {isa = PBXBuildFile; fileRef = C5E9198A1860C854003AA3D7 /* GTLYouTubePlaylistItemSnippet.m */; };
+		C5E91A301860C855003AA3D7 /* GTLYouTubePlaylistItemStatus.m in Sources */ = {isa = PBXBuildFile; fileRef = C5E9198C1860C854003AA3D7 /* GTLYouTubePlaylistItemStatus.m */; };
+		C5E91A311860C855003AA3D7 /* GTLYouTubePlaylistListResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = C5E9198E1860C854003AA3D7 /* GTLYouTubePlaylistListResponse.m */; };
+		C5E91A321860C855003AA3D7 /* GTLYouTubePlaylistPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = C5E919901860C854003AA3D7 /* GTLYouTubePlaylistPlayer.m */; };
+		C5E91A331860C855003AA3D7 /* GTLYouTubePlaylistSnippet.m in Sources */ = {isa = PBXBuildFile; fileRef = C5E919921860C854003AA3D7 /* GTLYouTubePlaylistSnippet.m */; };
+		C5E91A341860C855003AA3D7 /* GTLYouTubePlaylistStatus.m in Sources */ = {isa = PBXBuildFile; fileRef = C5E919941860C854003AA3D7 /* GTLYouTubePlaylistStatus.m */; };
+		C5E91A351860C855003AA3D7 /* GTLYouTubePromotedItem.m in Sources */ = {isa = PBXBuildFile; fileRef = C5E919961860C854003AA3D7 /* GTLYouTubePromotedItem.m */; };
+		C5E91A361860C855003AA3D7 /* GTLYouTubePromotedItemId.m in Sources */ = {isa = PBXBuildFile; fileRef = C5E919981860C854003AA3D7 /* GTLYouTubePromotedItemId.m */; };
+		C5E91A371860C855003AA3D7 /* GTLYouTubePropertyValue.m in Sources */ = {isa = PBXBuildFile; fileRef = C5E9199A1860C854003AA3D7 /* GTLYouTubePropertyValue.m */; };
+		C5E91A381860C855003AA3D7 /* GTLYouTubeResourceId.m in Sources */ = {isa = PBXBuildFile; fileRef = C5E9199C1860C854003AA3D7 /* GTLYouTubeResourceId.m */; };
+		C5E91A391860C855003AA3D7 /* GTLYouTubeSearchListResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = C5E9199E1860C854003AA3D7 /* GTLYouTubeSearchListResponse.m */; };
+		C5E91A3A1860C855003AA3D7 /* GTLYouTubeSearchResult.m in Sources */ = {isa = PBXBuildFile; fileRef = C5E919A01860C854003AA3D7 /* GTLYouTubeSearchResult.m */; };
+		C5E91A3B1860C855003AA3D7 /* GTLYouTubeSearchResultSnippet.m in Sources */ = {isa = PBXBuildFile; fileRef = C5E919A21860C854003AA3D7 /* GTLYouTubeSearchResultSnippet.m */; };
+		C5E91A3C1860C855003AA3D7 /* GTLYouTubeSubscription.m in Sources */ = {isa = PBXBuildFile; fileRef = C5E919A41860C854003AA3D7 /* GTLYouTubeSubscription.m */; };
+		C5E91A3D1860C855003AA3D7 /* GTLYouTubeSubscriptionContentDetails.m in Sources */ = {isa = PBXBuildFile; fileRef = C5E919A61860C854003AA3D7 /* GTLYouTubeSubscriptionContentDetails.m */; };
+		C5E91A3E1860C855003AA3D7 /* GTLYouTubeSubscriptionListResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = C5E919A81860C854003AA3D7 /* GTLYouTubeSubscriptionListResponse.m */; };
+		C5E91A3F1860C855003AA3D7 /* GTLYouTubeSubscriptionSnippet.m in Sources */ = {isa = PBXBuildFile; fileRef = C5E919AA1860C854003AA3D7 /* GTLYouTubeSubscriptionSnippet.m */; };
+		C5E91A401860C855003AA3D7 /* GTLYouTubeSubscriptionSubscriberSnippet.m in Sources */ = {isa = PBXBuildFile; fileRef = C5E919AC1860C854003AA3D7 /* GTLYouTubeSubscriptionSubscriberSnippet.m */; };
+		C5E91A411860C855003AA3D7 /* GTLYouTubeThumbnail.m in Sources */ = {isa = PBXBuildFile; fileRef = C5E919AE1860C854003AA3D7 /* GTLYouTubeThumbnail.m */; };
+		C5E91A421860C855003AA3D7 /* GTLYouTubeThumbnailDetails.m in Sources */ = {isa = PBXBuildFile; fileRef = C5E919B01860C854003AA3D7 /* GTLYouTubeThumbnailDetails.m */; };
+		C5E91A431860C855003AA3D7 /* GTLYouTubeThumbnailSetResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = C5E919B21860C854003AA3D7 /* GTLYouTubeThumbnailSetResponse.m */; };
+		C5E91A441860C855003AA3D7 /* GTLYouTubeTokenPagination.m in Sources */ = {isa = PBXBuildFile; fileRef = C5E919B41860C854003AA3D7 /* GTLYouTubeTokenPagination.m */; };
+		C5E91A451860C855003AA3D7 /* GTLYouTubeVideo.m in Sources */ = {isa = PBXBuildFile; fileRef = C5E919B61860C854003AA3D7 /* GTLYouTubeVideo.m */; };
+		C5E91A461860C855003AA3D7 /* GTLYouTubeVideoAgeGating.m in Sources */ = {isa = PBXBuildFile; fileRef = C5E919B81860C854003AA3D7 /* GTLYouTubeVideoAgeGating.m */; };
+		C5E91A471860C855003AA3D7 /* GTLYouTubeVideoCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = C5E919BA1860C854003AA3D7 /* GTLYouTubeVideoCategory.m */; };
+		C5E91A481860C855003AA3D7 /* GTLYouTubeVideoCategoryListResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = C5E919BC1860C854003AA3D7 /* GTLYouTubeVideoCategoryListResponse.m */; };
+		C5E91A491860C855003AA3D7 /* GTLYouTubeVideoCategorySnippet.m in Sources */ = {isa = PBXBuildFile; fileRef = C5E919BE1860C854003AA3D7 /* GTLYouTubeVideoCategorySnippet.m */; };
+		C5E91A4A1860C855003AA3D7 /* GTLYouTubeVideoContentDetails.m in Sources */ = {isa = PBXBuildFile; fileRef = C5E919C01860C854003AA3D7 /* GTLYouTubeVideoContentDetails.m */; };
+		C5E91A4B1860C855003AA3D7 /* GTLYouTubeVideoContentDetailsRegionRestriction.m in Sources */ = {isa = PBXBuildFile; fileRef = C5E919C21860C854003AA3D7 /* GTLYouTubeVideoContentDetailsRegionRestriction.m */; };
+		C5E91A4C1860C855003AA3D7 /* GTLYouTubeVideoConversionPing.m in Sources */ = {isa = PBXBuildFile; fileRef = C5E919C41860C854003AA3D7 /* GTLYouTubeVideoConversionPing.m */; };
+		C5E91A4D1860C855003AA3D7 /* GTLYouTubeVideoConversionPings.m in Sources */ = {isa = PBXBuildFile; fileRef = C5E919C61860C854003AA3D7 /* GTLYouTubeVideoConversionPings.m */; };
+		C5E91A4E1860C855003AA3D7 /* GTLYouTubeVideoFileDetails.m in Sources */ = {isa = PBXBuildFile; fileRef = C5E919C81860C854003AA3D7 /* GTLYouTubeVideoFileDetails.m */; };
+		C5E91A4F1860C855003AA3D7 /* GTLYouTubeVideoFileDetailsAudioStream.m in Sources */ = {isa = PBXBuildFile; fileRef = C5E919CA1860C854003AA3D7 /* GTLYouTubeVideoFileDetailsAudioStream.m */; };
+		C5E91A501860C855003AA3D7 /* GTLYouTubeVideoFileDetailsVideoStream.m in Sources */ = {isa = PBXBuildFile; fileRef = C5E919CC1860C854003AA3D7 /* GTLYouTubeVideoFileDetailsVideoStream.m */; };
+		C5E91A511860C855003AA3D7 /* GTLYouTubeVideoGetRatingResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = C5E919CE1860C854003AA3D7 /* GTLYouTubeVideoGetRatingResponse.m */; };
+		C5E91A521860C855003AA3D7 /* GTLYouTubeVideoListResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = C5E919D01860C854003AA3D7 /* GTLYouTubeVideoListResponse.m */; };
+		C5E91A531860C855003AA3D7 /* GTLYouTubeVideoLiveStreamingDetails.m in Sources */ = {isa = PBXBuildFile; fileRef = C5E919D21860C854003AA3D7 /* GTLYouTubeVideoLiveStreamingDetails.m */; };
+		C5E91A541860C855003AA3D7 /* GTLYouTubeVideoMonetizationDetails.m in Sources */ = {isa = PBXBuildFile; fileRef = C5E919D41860C854003AA3D7 /* GTLYouTubeVideoMonetizationDetails.m */; };
+		C5E91A551860C855003AA3D7 /* GTLYouTubeVideoPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = C5E919D61860C854003AA3D7 /* GTLYouTubeVideoPlayer.m */; };
+		C5E91A561860C855003AA3D7 /* GTLYouTubeVideoProcessingDetails.m in Sources */ = {isa = PBXBuildFile; fileRef = C5E919D81860C854003AA3D7 /* GTLYouTubeVideoProcessingDetails.m */; };
+		C5E91A571860C855003AA3D7 /* GTLYouTubeVideoProcessingDetailsProcessingProgress.m in Sources */ = {isa = PBXBuildFile; fileRef = C5E919DA1860C854003AA3D7 /* GTLYouTubeVideoProcessingDetailsProcessingProgress.m */; };
+		C5E91A581860C855003AA3D7 /* GTLYouTubeVideoProjectDetails.m in Sources */ = {isa = PBXBuildFile; fileRef = C5E919DC1860C854003AA3D7 /* GTLYouTubeVideoProjectDetails.m */; };
+		C5E91A591860C855003AA3D7 /* GTLYouTubeVideoRating.m in Sources */ = {isa = PBXBuildFile; fileRef = C5E919DE1860C854003AA3D7 /* GTLYouTubeVideoRating.m */; };
+		C5E91A5A1860C855003AA3D7 /* GTLYouTubeVideoRecordingDetails.m in Sources */ = {isa = PBXBuildFile; fileRef = C5E919E01860C854003AA3D7 /* GTLYouTubeVideoRecordingDetails.m */; };
+		C5E91A5B1860C855003AA3D7 /* GTLYouTubeVideoSnippet.m in Sources */ = {isa = PBXBuildFile; fileRef = C5E919E21860C854003AA3D7 /* GTLYouTubeVideoSnippet.m */; };
+		C5E91A5C1860C855003AA3D7 /* GTLYouTubeVideoStatistics.m in Sources */ = {isa = PBXBuildFile; fileRef = C5E919E41860C854003AA3D7 /* GTLYouTubeVideoStatistics.m */; };
+		C5E91A5D1860C855003AA3D7 /* GTLYouTubeVideoStatus.m in Sources */ = {isa = PBXBuildFile; fileRef = C5E919E61860C854003AA3D7 /* GTLYouTubeVideoStatus.m */; };
+		C5E91A5E1860C855003AA3D7 /* GTLYouTubeVideoSuggestions.m in Sources */ = {isa = PBXBuildFile; fileRef = C5E919E81860C854003AA3D7 /* GTLYouTubeVideoSuggestions.m */; };
+		C5E91A5F1860C855003AA3D7 /* GTLYouTubeVideoSuggestionsTagSuggestion.m in Sources */ = {isa = PBXBuildFile; fileRef = C5E919EA1860C855003AA3D7 /* GTLYouTubeVideoSuggestionsTagSuggestion.m */; };
+		C5E91A601860C855003AA3D7 /* GTLYouTubeVideoTopicDetails.m in Sources */ = {isa = PBXBuildFile; fileRef = C5E919EC1860C855003AA3D7 /* GTLYouTubeVideoTopicDetails.m */; };
+		C5E91A611860C855003AA3D7 /* GTLYouTubeWatchSettings.m in Sources */ = {isa = PBXBuildFile; fileRef = C5E919EE1860C855003AA3D7 /* GTLYouTubeWatchSettings.m */; };
+		C5E91A641860C89D003AA3D7 /* GoogleOpenSource.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5E91A621860C89D003AA3D7 /* GoogleOpenSource.framework */; };
+		C5E91A651860C89D003AA3D7 /* GooglePlus.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5E91A631860C89D003AA3D7 /* GooglePlus.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,9 +162,251 @@
 		C58296FC18603CE8003AB713 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		C582970418603CE8003AB713 /* iOSYoutubeUploadTestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iOSYoutubeUploadTestTests-Info.plist"; sourceTree = "<group>"; };
 		C582970618603CE8003AB713 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		C582970818603CE8003AB713 /* iOSYoutubeUploadTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iOSYoutubeUploadTestTests.m; sourceTree = "<group>"; };
-		C582971218603DFA003AB713 /* GooglePlus.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GooglePlus.framework; sourceTree = "<group>"; };
-		C582971418603DFE003AB713 /* GoogleOpenSource.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleOpenSource.framework; sourceTree = "<group>"; };
+		C582971618604211003AB713 /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = System/Library/Frameworks/AddressBook.framework; sourceTree = SDKROOT; };
+		C582971818604217003AB713 /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
+		C582971A1860421F003AB713 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		C582971C18604226003AB713 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
+		C582971E1860422F003AB713 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
+		C582972018604235003AB713 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		C58297221860423A003AB713 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		C582972418604240003AB713 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		C5829A321860A465003AB713 /* MediaToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaToolbox.framework; path = System/Library/Frameworks/MediaToolbox.framework; sourceTree = SDKROOT; };
+		C5829A331860A465003AB713 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		C5E919091860C854003AA3D7 /* GTLQueryYouTube.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTLQueryYouTube.h; sourceTree = "<group>"; };
+		C5E9190A1860C854003AA3D7 /* GTLQueryYouTube.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTLQueryYouTube.m; sourceTree = "<group>"; };
+		C5E9190B1860C854003AA3D7 /* GTLServiceYouTube.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTLServiceYouTube.h; sourceTree = "<group>"; };
+		C5E9190C1860C854003AA3D7 /* GTLServiceYouTube.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTLServiceYouTube.m; sourceTree = "<group>"; };
+		C5E9190D1860C854003AA3D7 /* GTLYouTube.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTLYouTube.h; sourceTree = "<group>"; };
+		C5E9190F1860C854003AA3D7 /* GTLYouTubeAccessPolicy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTLYouTubeAccessPolicy.h; sourceTree = "<group>"; };
+		C5E919101860C854003AA3D7 /* GTLYouTubeAccessPolicy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTLYouTubeAccessPolicy.m; sourceTree = "<group>"; };
+		C5E919111860C854003AA3D7 /* GTLYouTubeActivity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTLYouTubeActivity.h; sourceTree = "<group>"; };
+		C5E919121860C854003AA3D7 /* GTLYouTubeActivity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTLYouTubeActivity.m; sourceTree = "<group>"; };
+		C5E919131860C854003AA3D7 /* GTLYouTubeActivityContentDetails.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTLYouTubeActivityContentDetails.h; sourceTree = "<group>"; };
+		C5E919141860C854003AA3D7 /* GTLYouTubeActivityContentDetails.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTLYouTubeActivityContentDetails.m; sourceTree = "<group>"; };
+		C5E919151860C854003AA3D7 /* GTLYouTubeActivityContentDetailsBulletin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTLYouTubeActivityContentDetailsBulletin.h; sourceTree = "<group>"; };
+		C5E919161860C854003AA3D7 /* GTLYouTubeActivityContentDetailsBulletin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTLYouTubeActivityContentDetailsBulletin.m; sourceTree = "<group>"; };
+		C5E919171860C854003AA3D7 /* GTLYouTubeActivityContentDetailsChannelItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTLYouTubeActivityContentDetailsChannelItem.h; sourceTree = "<group>"; };
+		C5E919181860C854003AA3D7 /* GTLYouTubeActivityContentDetailsChannelItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTLYouTubeActivityContentDetailsChannelItem.m; sourceTree = "<group>"; };
+		C5E919191860C854003AA3D7 /* GTLYouTubeActivityContentDetailsComment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTLYouTubeActivityContentDetailsComment.h; sourceTree = "<group>"; };
+		C5E9191A1860C854003AA3D7 /* GTLYouTubeActivityContentDetailsComment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTLYouTubeActivityContentDetailsComment.m; sourceTree = "<group>"; };
+		C5E9191B1860C854003AA3D7 /* GTLYouTubeActivityContentDetailsFavorite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTLYouTubeActivityContentDetailsFavorite.h; sourceTree = "<group>"; };
+		C5E9191C1860C854003AA3D7 /* GTLYouTubeActivityContentDetailsFavorite.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTLYouTubeActivityContentDetailsFavorite.m; sourceTree = "<group>"; };
+		C5E9191D1860C854003AA3D7 /* GTLYouTubeActivityContentDetailsLike.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTLYouTubeActivityContentDetailsLike.h; sourceTree = "<group>"; };
+		C5E9191E1860C854003AA3D7 /* GTLYouTubeActivityContentDetailsLike.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTLYouTubeActivityContentDetailsLike.m; sourceTree = "<group>"; };
+		C5E9191F1860C854003AA3D7 /* GTLYouTubeActivityContentDetailsPlaylistItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTLYouTubeActivityContentDetailsPlaylistItem.h; sourceTree = "<group>"; };
+		C5E919201860C854003AA3D7 /* GTLYouTubeActivityContentDetailsPlaylistItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTLYouTubeActivityContentDetailsPlaylistItem.m; sourceTree = "<group>"; };
+		C5E919211860C854003AA3D7 /* GTLYouTubeActivityContentDetailsPromotedItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTLYouTubeActivityContentDetailsPromotedItem.h; sourceTree = "<group>"; };
+		C5E919221860C854003AA3D7 /* GTLYouTubeActivityContentDetailsPromotedItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTLYouTubeActivityContentDetailsPromotedItem.m; sourceTree = "<group>"; };
+		C5E919231860C854003AA3D7 /* GTLYouTubeActivityContentDetailsRecommendation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTLYouTubeActivityContentDetailsRecommendation.h; sourceTree = "<group>"; };
+		C5E919241860C854003AA3D7 /* GTLYouTubeActivityContentDetailsRecommendation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTLYouTubeActivityContentDetailsRecommendation.m; sourceTree = "<group>"; };
+		C5E919251860C854003AA3D7 /* GTLYouTubeActivityContentDetailsSocial.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTLYouTubeActivityContentDetailsSocial.h; sourceTree = "<group>"; };
+		C5E919261860C854003AA3D7 /* GTLYouTubeActivityContentDetailsSocial.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTLYouTubeActivityContentDetailsSocial.m; sourceTree = "<group>"; };
+		C5E919271860C854003AA3D7 /* GTLYouTubeActivityContentDetailsSubscription.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTLYouTubeActivityContentDetailsSubscription.h; sourceTree = "<group>"; };
+		C5E919281860C854003AA3D7 /* GTLYouTubeActivityContentDetailsSubscription.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTLYouTubeActivityContentDetailsSubscription.m; sourceTree = "<group>"; };
+		C5E919291860C854003AA3D7 /* GTLYouTubeActivityContentDetailsUpload.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTLYouTubeActivityContentDetailsUpload.h; sourceTree = "<group>"; };
+		C5E9192A1860C854003AA3D7 /* GTLYouTubeActivityContentDetailsUpload.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTLYouTubeActivityContentDetailsUpload.m; sourceTree = "<group>"; };
+		C5E9192B1860C854003AA3D7 /* GTLYouTubeActivityListResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTLYouTubeActivityListResponse.h; sourceTree = "<group>"; };
+		C5E9192C1860C854003AA3D7 /* GTLYouTubeActivityListResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTLYouTubeActivityListResponse.m; sourceTree = "<group>"; };
+		C5E9192D1860C854003AA3D7 /* GTLYouTubeActivitySnippet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTLYouTubeActivitySnippet.h; sourceTree = "<group>"; };
+		C5E9192E1860C854003AA3D7 /* GTLYouTubeActivitySnippet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTLYouTubeActivitySnippet.m; sourceTree = "<group>"; };
+		C5E9192F1860C854003AA3D7 /* GTLYouTubeCdnSettings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTLYouTubeCdnSettings.h; sourceTree = "<group>"; };
+		C5E919301860C854003AA3D7 /* GTLYouTubeCdnSettings.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTLYouTubeCdnSettings.m; sourceTree = "<group>"; };
+		C5E919311860C854003AA3D7 /* GTLYouTubeChannel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTLYouTubeChannel.h; sourceTree = "<group>"; };
+		C5E919321860C854003AA3D7 /* GTLYouTubeChannel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTLYouTubeChannel.m; sourceTree = "<group>"; };
+		C5E919331860C854003AA3D7 /* GTLYouTubeChannelAuditDetails.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTLYouTubeChannelAuditDetails.h; sourceTree = "<group>"; };
+		C5E919341860C854003AA3D7 /* GTLYouTubeChannelAuditDetails.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTLYouTubeChannelAuditDetails.m; sourceTree = "<group>"; };
+		C5E919351860C854003AA3D7 /* GTLYouTubeChannelBannerResource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTLYouTubeChannelBannerResource.h; sourceTree = "<group>"; };
+		C5E919361860C854003AA3D7 /* GTLYouTubeChannelBannerResource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTLYouTubeChannelBannerResource.m; sourceTree = "<group>"; };
+		C5E919371860C854003AA3D7 /* GTLYouTubeChannelBrandingSettings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTLYouTubeChannelBrandingSettings.h; sourceTree = "<group>"; };
+		C5E919381860C854003AA3D7 /* GTLYouTubeChannelBrandingSettings.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTLYouTubeChannelBrandingSettings.m; sourceTree = "<group>"; };
+		C5E919391860C854003AA3D7 /* GTLYouTubeChannelContentDetails.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTLYouTubeChannelContentDetails.h; sourceTree = "<group>"; };
+		C5E9193A1860C854003AA3D7 /* GTLYouTubeChannelContentDetails.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTLYouTubeChannelContentDetails.m; sourceTree = "<group>"; };
+		C5E9193B1860C854003AA3D7 /* GTLYouTubeChannelConversionPing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTLYouTubeChannelConversionPing.h; sourceTree = "<group>"; };
+		C5E9193C1860C854003AA3D7 /* GTLYouTubeChannelConversionPing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTLYouTubeChannelConversionPing.m; sourceTree = "<group>"; };
+		C5E9193D1860C854003AA3D7 /* GTLYouTubeChannelConversionPings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTLYouTubeChannelConversionPings.h; sourceTree = "<group>"; };
+		C5E9193E1860C854003AA3D7 /* GTLYouTubeChannelConversionPings.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTLYouTubeChannelConversionPings.m; sourceTree = "<group>"; };
+		C5E9193F1860C854003AA3D7 /* GTLYouTubeChannelListResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTLYouTubeChannelListResponse.h; sourceTree = "<group>"; };
+		C5E919401860C854003AA3D7 /* GTLYouTubeChannelListResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTLYouTubeChannelListResponse.m; sourceTree = "<group>"; };
+		C5E919411860C854003AA3D7 /* GTLYouTubeChannelSettings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTLYouTubeChannelSettings.h; sourceTree = "<group>"; };
+		C5E919421860C854003AA3D7 /* GTLYouTubeChannelSettings.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTLYouTubeChannelSettings.m; sourceTree = "<group>"; };
+		C5E919431860C854003AA3D7 /* GTLYouTubeChannelSnippet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTLYouTubeChannelSnippet.h; sourceTree = "<group>"; };
+		C5E919441860C854003AA3D7 /* GTLYouTubeChannelSnippet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTLYouTubeChannelSnippet.m; sourceTree = "<group>"; };
+		C5E919451860C854003AA3D7 /* GTLYouTubeChannelStatistics.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTLYouTubeChannelStatistics.h; sourceTree = "<group>"; };
+		C5E919461860C854003AA3D7 /* GTLYouTubeChannelStatistics.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTLYouTubeChannelStatistics.m; sourceTree = "<group>"; };
+		C5E919471860C854003AA3D7 /* GTLYouTubeChannelStatus.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTLYouTubeChannelStatus.h; sourceTree = "<group>"; };
+		C5E919481860C854003AA3D7 /* GTLYouTubeChannelStatus.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTLYouTubeChannelStatus.m; sourceTree = "<group>"; };
+		C5E919491860C854003AA3D7 /* GTLYouTubeChannelTopicDetails.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTLYouTubeChannelTopicDetails.h; sourceTree = "<group>"; };
+		C5E9194A1860C854003AA3D7 /* GTLYouTubeChannelTopicDetails.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTLYouTubeChannelTopicDetails.m; sourceTree = "<group>"; };
+		C5E9194B1860C854003AA3D7 /* GTLYouTubeConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTLYouTubeConstants.h; sourceTree = "<group>"; };
+		C5E9194C1860C854003AA3D7 /* GTLYouTubeConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTLYouTubeConstants.m; sourceTree = "<group>"; };
+		C5E9194D1860C854003AA3D7 /* GTLYouTubeContentRating.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTLYouTubeContentRating.h; sourceTree = "<group>"; };
+		C5E9194E1860C854003AA3D7 /* GTLYouTubeContentRating.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTLYouTubeContentRating.m; sourceTree = "<group>"; };
+		C5E9194F1860C854003AA3D7 /* GTLYouTubeGeoPoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTLYouTubeGeoPoint.h; sourceTree = "<group>"; };
+		C5E919501860C854003AA3D7 /* GTLYouTubeGeoPoint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTLYouTubeGeoPoint.m; sourceTree = "<group>"; };
+		C5E919511860C854003AA3D7 /* GTLYouTubeGuideCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTLYouTubeGuideCategory.h; sourceTree = "<group>"; };
+		C5E919521860C854003AA3D7 /* GTLYouTubeGuideCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTLYouTubeGuideCategory.m; sourceTree = "<group>"; };
+		C5E919531860C854003AA3D7 /* GTLYouTubeGuideCategoryListResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTLYouTubeGuideCategoryListResponse.h; sourceTree = "<group>"; };
+		C5E919541860C854003AA3D7 /* GTLYouTubeGuideCategoryListResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTLYouTubeGuideCategoryListResponse.m; sourceTree = "<group>"; };
+		C5E919551860C854003AA3D7 /* GTLYouTubeGuideCategorySnippet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTLYouTubeGuideCategorySnippet.h; sourceTree = "<group>"; };
+		C5E919561860C854003AA3D7 /* GTLYouTubeGuideCategorySnippet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTLYouTubeGuideCategorySnippet.m; sourceTree = "<group>"; };
+		C5E919571860C854003AA3D7 /* GTLYouTubeImageSettings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTLYouTubeImageSettings.h; sourceTree = "<group>"; };
+		C5E919581860C854003AA3D7 /* GTLYouTubeImageSettings.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTLYouTubeImageSettings.m; sourceTree = "<group>"; };
+		C5E919591860C854003AA3D7 /* GTLYouTubeIngestionInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTLYouTubeIngestionInfo.h; sourceTree = "<group>"; };
+		C5E9195A1860C854003AA3D7 /* GTLYouTubeIngestionInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTLYouTubeIngestionInfo.m; sourceTree = "<group>"; };
+		C5E9195B1860C854003AA3D7 /* GTLYouTubeInvideoBranding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTLYouTubeInvideoBranding.h; sourceTree = "<group>"; };
+		C5E9195C1860C854003AA3D7 /* GTLYouTubeInvideoBranding.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTLYouTubeInvideoBranding.m; sourceTree = "<group>"; };
+		C5E9195D1860C854003AA3D7 /* GTLYouTubeInvideoPosition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTLYouTubeInvideoPosition.h; sourceTree = "<group>"; };
+		C5E9195E1860C854003AA3D7 /* GTLYouTubeInvideoPosition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTLYouTubeInvideoPosition.m; sourceTree = "<group>"; };
+		C5E9195F1860C854003AA3D7 /* GTLYouTubeInvideoPromotion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTLYouTubeInvideoPromotion.h; sourceTree = "<group>"; };
+		C5E919601860C854003AA3D7 /* GTLYouTubeInvideoPromotion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTLYouTubeInvideoPromotion.m; sourceTree = "<group>"; };
+		C5E919611860C854003AA3D7 /* GTLYouTubeInvideoTiming.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTLYouTubeInvideoTiming.h; sourceTree = "<group>"; };
+		C5E919621860C854003AA3D7 /* GTLYouTubeInvideoTiming.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTLYouTubeInvideoTiming.m; sourceTree = "<group>"; };
+		C5E919631860C854003AA3D7 /* GTLYouTubeLiveBroadcast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTLYouTubeLiveBroadcast.h; sourceTree = "<group>"; };
+		C5E919641860C854003AA3D7 /* GTLYouTubeLiveBroadcast.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTLYouTubeLiveBroadcast.m; sourceTree = "<group>"; };
+		C5E919651860C854003AA3D7 /* GTLYouTubeLiveBroadcastContentDetails.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTLYouTubeLiveBroadcastContentDetails.h; sourceTree = "<group>"; };
+		C5E919661860C854003AA3D7 /* GTLYouTubeLiveBroadcastContentDetails.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTLYouTubeLiveBroadcastContentDetails.m; sourceTree = "<group>"; };
+		C5E919671860C854003AA3D7 /* GTLYouTubeLiveBroadcastListResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTLYouTubeLiveBroadcastListResponse.h; sourceTree = "<group>"; };
+		C5E919681860C854003AA3D7 /* GTLYouTubeLiveBroadcastListResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTLYouTubeLiveBroadcastListResponse.m; sourceTree = "<group>"; };
+		C5E919691860C854003AA3D7 /* GTLYouTubeLiveBroadcastSnippet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTLYouTubeLiveBroadcastSnippet.h; sourceTree = "<group>"; };
+		C5E9196A1860C854003AA3D7 /* GTLYouTubeLiveBroadcastSnippet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTLYouTubeLiveBroadcastSnippet.m; sourceTree = "<group>"; };
+		C5E9196B1860C854003AA3D7 /* GTLYouTubeLiveBroadcastStatus.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTLYouTubeLiveBroadcastStatus.h; sourceTree = "<group>"; };
+		C5E9196C1860C854003AA3D7 /* GTLYouTubeLiveBroadcastStatus.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTLYouTubeLiveBroadcastStatus.m; sourceTree = "<group>"; };
+		C5E9196D1860C854003AA3D7 /* GTLYouTubeLiveStream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTLYouTubeLiveStream.h; sourceTree = "<group>"; };
+		C5E9196E1860C854003AA3D7 /* GTLYouTubeLiveStream.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTLYouTubeLiveStream.m; sourceTree = "<group>"; };
+		C5E9196F1860C854003AA3D7 /* GTLYouTubeLiveStreamContentDetails.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTLYouTubeLiveStreamContentDetails.h; sourceTree = "<group>"; };
+		C5E919701860C854003AA3D7 /* GTLYouTubeLiveStreamContentDetails.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTLYouTubeLiveStreamContentDetails.m; sourceTree = "<group>"; };
+		C5E919711860C854003AA3D7 /* GTLYouTubeLiveStreamListResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTLYouTubeLiveStreamListResponse.h; sourceTree = "<group>"; };
+		C5E919721860C854003AA3D7 /* GTLYouTubeLiveStreamListResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTLYouTubeLiveStreamListResponse.m; sourceTree = "<group>"; };
+		C5E919731860C854003AA3D7 /* GTLYouTubeLiveStreamSnippet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTLYouTubeLiveStreamSnippet.h; sourceTree = "<group>"; };
+		C5E919741860C854003AA3D7 /* GTLYouTubeLiveStreamSnippet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTLYouTubeLiveStreamSnippet.m; sourceTree = "<group>"; };
+		C5E919751860C854003AA3D7 /* GTLYouTubeLiveStreamStatus.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTLYouTubeLiveStreamStatus.h; sourceTree = "<group>"; };
+		C5E919761860C854003AA3D7 /* GTLYouTubeLiveStreamStatus.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTLYouTubeLiveStreamStatus.m; sourceTree = "<group>"; };
+		C5E919771860C854003AA3D7 /* GTLYouTubeLocalizedProperty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTLYouTubeLocalizedProperty.h; sourceTree = "<group>"; };
+		C5E919781860C854003AA3D7 /* GTLYouTubeLocalizedProperty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTLYouTubeLocalizedProperty.m; sourceTree = "<group>"; };
+		C5E919791860C854003AA3D7 /* GTLYouTubeLocalizedString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTLYouTubeLocalizedString.h; sourceTree = "<group>"; };
+		C5E9197A1860C854003AA3D7 /* GTLYouTubeLocalizedString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTLYouTubeLocalizedString.m; sourceTree = "<group>"; };
+		C5E9197B1860C854003AA3D7 /* GTLYouTubeMonitorStreamInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTLYouTubeMonitorStreamInfo.h; sourceTree = "<group>"; };
+		C5E9197C1860C854003AA3D7 /* GTLYouTubeMonitorStreamInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTLYouTubeMonitorStreamInfo.m; sourceTree = "<group>"; };
+		C5E9197D1860C854003AA3D7 /* GTLYouTubePageInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTLYouTubePageInfo.h; sourceTree = "<group>"; };
+		C5E9197E1860C854003AA3D7 /* GTLYouTubePageInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTLYouTubePageInfo.m; sourceTree = "<group>"; };
+		C5E9197F1860C854003AA3D7 /* GTLYouTubePlaylist.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTLYouTubePlaylist.h; sourceTree = "<group>"; };
+		C5E919801860C854003AA3D7 /* GTLYouTubePlaylist.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTLYouTubePlaylist.m; sourceTree = "<group>"; };
+		C5E919811860C854003AA3D7 /* GTLYouTubePlaylistContentDetails.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTLYouTubePlaylistContentDetails.h; sourceTree = "<group>"; };
+		C5E919821860C854003AA3D7 /* GTLYouTubePlaylistContentDetails.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTLYouTubePlaylistContentDetails.m; sourceTree = "<group>"; };
+		C5E919831860C854003AA3D7 /* GTLYouTubePlaylistItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTLYouTubePlaylistItem.h; sourceTree = "<group>"; };
+		C5E919841860C854003AA3D7 /* GTLYouTubePlaylistItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTLYouTubePlaylistItem.m; sourceTree = "<group>"; };
+		C5E919851860C854003AA3D7 /* GTLYouTubePlaylistItemContentDetails.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTLYouTubePlaylistItemContentDetails.h; sourceTree = "<group>"; };
+		C5E919861860C854003AA3D7 /* GTLYouTubePlaylistItemContentDetails.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTLYouTubePlaylistItemContentDetails.m; sourceTree = "<group>"; };
+		C5E919871860C854003AA3D7 /* GTLYouTubePlaylistItemListResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTLYouTubePlaylistItemListResponse.h; sourceTree = "<group>"; };
+		C5E919881860C854003AA3D7 /* GTLYouTubePlaylistItemListResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTLYouTubePlaylistItemListResponse.m; sourceTree = "<group>"; };
+		C5E919891860C854003AA3D7 /* GTLYouTubePlaylistItemSnippet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTLYouTubePlaylistItemSnippet.h; sourceTree = "<group>"; };
+		C5E9198A1860C854003AA3D7 /* GTLYouTubePlaylistItemSnippet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTLYouTubePlaylistItemSnippet.m; sourceTree = "<group>"; };
+		C5E9198B1860C854003AA3D7 /* GTLYouTubePlaylistItemStatus.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTLYouTubePlaylistItemStatus.h; sourceTree = "<group>"; };
+		C5E9198C1860C854003AA3D7 /* GTLYouTubePlaylistItemStatus.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTLYouTubePlaylistItemStatus.m; sourceTree = "<group>"; };
+		C5E9198D1860C854003AA3D7 /* GTLYouTubePlaylistListResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTLYouTubePlaylistListResponse.h; sourceTree = "<group>"; };
+		C5E9198E1860C854003AA3D7 /* GTLYouTubePlaylistListResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTLYouTubePlaylistListResponse.m; sourceTree = "<group>"; };
+		C5E9198F1860C854003AA3D7 /* GTLYouTubePlaylistPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTLYouTubePlaylistPlayer.h; sourceTree = "<group>"; };
+		C5E919901860C854003AA3D7 /* GTLYouTubePlaylistPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTLYouTubePlaylistPlayer.m; sourceTree = "<group>"; };
+		C5E919911860C854003AA3D7 /* GTLYouTubePlaylistSnippet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTLYouTubePlaylistSnippet.h; sourceTree = "<group>"; };
+		C5E919921860C854003AA3D7 /* GTLYouTubePlaylistSnippet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTLYouTubePlaylistSnippet.m; sourceTree = "<group>"; };
+		C5E919931860C854003AA3D7 /* GTLYouTubePlaylistStatus.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTLYouTubePlaylistStatus.h; sourceTree = "<group>"; };
+		C5E919941860C854003AA3D7 /* GTLYouTubePlaylistStatus.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTLYouTubePlaylistStatus.m; sourceTree = "<group>"; };
+		C5E919951860C854003AA3D7 /* GTLYouTubePromotedItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTLYouTubePromotedItem.h; sourceTree = "<group>"; };
+		C5E919961860C854003AA3D7 /* GTLYouTubePromotedItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTLYouTubePromotedItem.m; sourceTree = "<group>"; };
+		C5E919971860C854003AA3D7 /* GTLYouTubePromotedItemId.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTLYouTubePromotedItemId.h; sourceTree = "<group>"; };
+		C5E919981860C854003AA3D7 /* GTLYouTubePromotedItemId.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTLYouTubePromotedItemId.m; sourceTree = "<group>"; };
+		C5E919991860C854003AA3D7 /* GTLYouTubePropertyValue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTLYouTubePropertyValue.h; sourceTree = "<group>"; };
+		C5E9199A1860C854003AA3D7 /* GTLYouTubePropertyValue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTLYouTubePropertyValue.m; sourceTree = "<group>"; };
+		C5E9199B1860C854003AA3D7 /* GTLYouTubeResourceId.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTLYouTubeResourceId.h; sourceTree = "<group>"; };
+		C5E9199C1860C854003AA3D7 /* GTLYouTubeResourceId.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTLYouTubeResourceId.m; sourceTree = "<group>"; };
+		C5E9199D1860C854003AA3D7 /* GTLYouTubeSearchListResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTLYouTubeSearchListResponse.h; sourceTree = "<group>"; };
+		C5E9199E1860C854003AA3D7 /* GTLYouTubeSearchListResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTLYouTubeSearchListResponse.m; sourceTree = "<group>"; };
+		C5E9199F1860C854003AA3D7 /* GTLYouTubeSearchResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTLYouTubeSearchResult.h; sourceTree = "<group>"; };
+		C5E919A01860C854003AA3D7 /* GTLYouTubeSearchResult.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTLYouTubeSearchResult.m; sourceTree = "<group>"; };
+		C5E919A11860C854003AA3D7 /* GTLYouTubeSearchResultSnippet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTLYouTubeSearchResultSnippet.h; sourceTree = "<group>"; };
+		C5E919A21860C854003AA3D7 /* GTLYouTubeSearchResultSnippet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTLYouTubeSearchResultSnippet.m; sourceTree = "<group>"; };
+		C5E919A31860C854003AA3D7 /* GTLYouTubeSubscription.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTLYouTubeSubscription.h; sourceTree = "<group>"; };
+		C5E919A41860C854003AA3D7 /* GTLYouTubeSubscription.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTLYouTubeSubscription.m; sourceTree = "<group>"; };
+		C5E919A51860C854003AA3D7 /* GTLYouTubeSubscriptionContentDetails.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTLYouTubeSubscriptionContentDetails.h; sourceTree = "<group>"; };
+		C5E919A61860C854003AA3D7 /* GTLYouTubeSubscriptionContentDetails.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTLYouTubeSubscriptionContentDetails.m; sourceTree = "<group>"; };
+		C5E919A71860C854003AA3D7 /* GTLYouTubeSubscriptionListResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTLYouTubeSubscriptionListResponse.h; sourceTree = "<group>"; };
+		C5E919A81860C854003AA3D7 /* GTLYouTubeSubscriptionListResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTLYouTubeSubscriptionListResponse.m; sourceTree = "<group>"; };
+		C5E919A91860C854003AA3D7 /* GTLYouTubeSubscriptionSnippet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTLYouTubeSubscriptionSnippet.h; sourceTree = "<group>"; };
+		C5E919AA1860C854003AA3D7 /* GTLYouTubeSubscriptionSnippet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTLYouTubeSubscriptionSnippet.m; sourceTree = "<group>"; };
+		C5E919AB1860C854003AA3D7 /* GTLYouTubeSubscriptionSubscriberSnippet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTLYouTubeSubscriptionSubscriberSnippet.h; sourceTree = "<group>"; };
+		C5E919AC1860C854003AA3D7 /* GTLYouTubeSubscriptionSubscriberSnippet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTLYouTubeSubscriptionSubscriberSnippet.m; sourceTree = "<group>"; };
+		C5E919AD1860C854003AA3D7 /* GTLYouTubeThumbnail.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTLYouTubeThumbnail.h; sourceTree = "<group>"; };
+		C5E919AE1860C854003AA3D7 /* GTLYouTubeThumbnail.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTLYouTubeThumbnail.m; sourceTree = "<group>"; };
+		C5E919AF1860C854003AA3D7 /* GTLYouTubeThumbnailDetails.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTLYouTubeThumbnailDetails.h; sourceTree = "<group>"; };
+		C5E919B01860C854003AA3D7 /* GTLYouTubeThumbnailDetails.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTLYouTubeThumbnailDetails.m; sourceTree = "<group>"; };
+		C5E919B11860C854003AA3D7 /* GTLYouTubeThumbnailSetResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTLYouTubeThumbnailSetResponse.h; sourceTree = "<group>"; };
+		C5E919B21860C854003AA3D7 /* GTLYouTubeThumbnailSetResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTLYouTubeThumbnailSetResponse.m; sourceTree = "<group>"; };
+		C5E919B31860C854003AA3D7 /* GTLYouTubeTokenPagination.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTLYouTubeTokenPagination.h; sourceTree = "<group>"; };
+		C5E919B41860C854003AA3D7 /* GTLYouTubeTokenPagination.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTLYouTubeTokenPagination.m; sourceTree = "<group>"; };
+		C5E919B51860C854003AA3D7 /* GTLYouTubeVideo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTLYouTubeVideo.h; sourceTree = "<group>"; };
+		C5E919B61860C854003AA3D7 /* GTLYouTubeVideo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTLYouTubeVideo.m; sourceTree = "<group>"; };
+		C5E919B71860C854003AA3D7 /* GTLYouTubeVideoAgeGating.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTLYouTubeVideoAgeGating.h; sourceTree = "<group>"; };
+		C5E919B81860C854003AA3D7 /* GTLYouTubeVideoAgeGating.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTLYouTubeVideoAgeGating.m; sourceTree = "<group>"; };
+		C5E919B91860C854003AA3D7 /* GTLYouTubeVideoCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTLYouTubeVideoCategory.h; sourceTree = "<group>"; };
+		C5E919BA1860C854003AA3D7 /* GTLYouTubeVideoCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTLYouTubeVideoCategory.m; sourceTree = "<group>"; };
+		C5E919BB1860C854003AA3D7 /* GTLYouTubeVideoCategoryListResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTLYouTubeVideoCategoryListResponse.h; sourceTree = "<group>"; };
+		C5E919BC1860C854003AA3D7 /* GTLYouTubeVideoCategoryListResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTLYouTubeVideoCategoryListResponse.m; sourceTree = "<group>"; };
+		C5E919BD1860C854003AA3D7 /* GTLYouTubeVideoCategorySnippet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTLYouTubeVideoCategorySnippet.h; sourceTree = "<group>"; };
+		C5E919BE1860C854003AA3D7 /* GTLYouTubeVideoCategorySnippet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTLYouTubeVideoCategorySnippet.m; sourceTree = "<group>"; };
+		C5E919BF1860C854003AA3D7 /* GTLYouTubeVideoContentDetails.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTLYouTubeVideoContentDetails.h; sourceTree = "<group>"; };
+		C5E919C01860C854003AA3D7 /* GTLYouTubeVideoContentDetails.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTLYouTubeVideoContentDetails.m; sourceTree = "<group>"; };
+		C5E919C11860C854003AA3D7 /* GTLYouTubeVideoContentDetailsRegionRestriction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTLYouTubeVideoContentDetailsRegionRestriction.h; sourceTree = "<group>"; };
+		C5E919C21860C854003AA3D7 /* GTLYouTubeVideoContentDetailsRegionRestriction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTLYouTubeVideoContentDetailsRegionRestriction.m; sourceTree = "<group>"; };
+		C5E919C31860C854003AA3D7 /* GTLYouTubeVideoConversionPing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTLYouTubeVideoConversionPing.h; sourceTree = "<group>"; };
+		C5E919C41860C854003AA3D7 /* GTLYouTubeVideoConversionPing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTLYouTubeVideoConversionPing.m; sourceTree = "<group>"; };
+		C5E919C51860C854003AA3D7 /* GTLYouTubeVideoConversionPings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTLYouTubeVideoConversionPings.h; sourceTree = "<group>"; };
+		C5E919C61860C854003AA3D7 /* GTLYouTubeVideoConversionPings.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTLYouTubeVideoConversionPings.m; sourceTree = "<group>"; };
+		C5E919C71860C854003AA3D7 /* GTLYouTubeVideoFileDetails.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTLYouTubeVideoFileDetails.h; sourceTree = "<group>"; };
+		C5E919C81860C854003AA3D7 /* GTLYouTubeVideoFileDetails.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTLYouTubeVideoFileDetails.m; sourceTree = "<group>"; };
+		C5E919C91860C854003AA3D7 /* GTLYouTubeVideoFileDetailsAudioStream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTLYouTubeVideoFileDetailsAudioStream.h; sourceTree = "<group>"; };
+		C5E919CA1860C854003AA3D7 /* GTLYouTubeVideoFileDetailsAudioStream.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTLYouTubeVideoFileDetailsAudioStream.m; sourceTree = "<group>"; };
+		C5E919CB1860C854003AA3D7 /* GTLYouTubeVideoFileDetailsVideoStream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTLYouTubeVideoFileDetailsVideoStream.h; sourceTree = "<group>"; };
+		C5E919CC1860C854003AA3D7 /* GTLYouTubeVideoFileDetailsVideoStream.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTLYouTubeVideoFileDetailsVideoStream.m; sourceTree = "<group>"; };
+		C5E919CD1860C854003AA3D7 /* GTLYouTubeVideoGetRatingResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTLYouTubeVideoGetRatingResponse.h; sourceTree = "<group>"; };
+		C5E919CE1860C854003AA3D7 /* GTLYouTubeVideoGetRatingResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTLYouTubeVideoGetRatingResponse.m; sourceTree = "<group>"; };
+		C5E919CF1860C854003AA3D7 /* GTLYouTubeVideoListResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTLYouTubeVideoListResponse.h; sourceTree = "<group>"; };
+		C5E919D01860C854003AA3D7 /* GTLYouTubeVideoListResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTLYouTubeVideoListResponse.m; sourceTree = "<group>"; };
+		C5E919D11860C854003AA3D7 /* GTLYouTubeVideoLiveStreamingDetails.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTLYouTubeVideoLiveStreamingDetails.h; sourceTree = "<group>"; };
+		C5E919D21860C854003AA3D7 /* GTLYouTubeVideoLiveStreamingDetails.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTLYouTubeVideoLiveStreamingDetails.m; sourceTree = "<group>"; };
+		C5E919D31860C854003AA3D7 /* GTLYouTubeVideoMonetizationDetails.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTLYouTubeVideoMonetizationDetails.h; sourceTree = "<group>"; };
+		C5E919D41860C854003AA3D7 /* GTLYouTubeVideoMonetizationDetails.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTLYouTubeVideoMonetizationDetails.m; sourceTree = "<group>"; };
+		C5E919D51860C854003AA3D7 /* GTLYouTubeVideoPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTLYouTubeVideoPlayer.h; sourceTree = "<group>"; };
+		C5E919D61860C854003AA3D7 /* GTLYouTubeVideoPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTLYouTubeVideoPlayer.m; sourceTree = "<group>"; };
+		C5E919D71860C854003AA3D7 /* GTLYouTubeVideoProcessingDetails.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTLYouTubeVideoProcessingDetails.h; sourceTree = "<group>"; };
+		C5E919D81860C854003AA3D7 /* GTLYouTubeVideoProcessingDetails.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTLYouTubeVideoProcessingDetails.m; sourceTree = "<group>"; };
+		C5E919D91860C854003AA3D7 /* GTLYouTubeVideoProcessingDetailsProcessingProgress.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTLYouTubeVideoProcessingDetailsProcessingProgress.h; sourceTree = "<group>"; };
+		C5E919DA1860C854003AA3D7 /* GTLYouTubeVideoProcessingDetailsProcessingProgress.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTLYouTubeVideoProcessingDetailsProcessingProgress.m; sourceTree = "<group>"; };
+		C5E919DB1860C854003AA3D7 /* GTLYouTubeVideoProjectDetails.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTLYouTubeVideoProjectDetails.h; sourceTree = "<group>"; };
+		C5E919DC1860C854003AA3D7 /* GTLYouTubeVideoProjectDetails.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTLYouTubeVideoProjectDetails.m; sourceTree = "<group>"; };
+		C5E919DD1860C854003AA3D7 /* GTLYouTubeVideoRating.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTLYouTubeVideoRating.h; sourceTree = "<group>"; };
+		C5E919DE1860C854003AA3D7 /* GTLYouTubeVideoRating.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTLYouTubeVideoRating.m; sourceTree = "<group>"; };
+		C5E919DF1860C854003AA3D7 /* GTLYouTubeVideoRecordingDetails.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTLYouTubeVideoRecordingDetails.h; sourceTree = "<group>"; };
+		C5E919E01860C854003AA3D7 /* GTLYouTubeVideoRecordingDetails.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTLYouTubeVideoRecordingDetails.m; sourceTree = "<group>"; };
+		C5E919E11860C854003AA3D7 /* GTLYouTubeVideoSnippet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTLYouTubeVideoSnippet.h; sourceTree = "<group>"; };
+		C5E919E21860C854003AA3D7 /* GTLYouTubeVideoSnippet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTLYouTubeVideoSnippet.m; sourceTree = "<group>"; };
+		C5E919E31860C854003AA3D7 /* GTLYouTubeVideoStatistics.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTLYouTubeVideoStatistics.h; sourceTree = "<group>"; };
+		C5E919E41860C854003AA3D7 /* GTLYouTubeVideoStatistics.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTLYouTubeVideoStatistics.m; sourceTree = "<group>"; };
+		C5E919E51860C854003AA3D7 /* GTLYouTubeVideoStatus.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTLYouTubeVideoStatus.h; sourceTree = "<group>"; };
+		C5E919E61860C854003AA3D7 /* GTLYouTubeVideoStatus.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTLYouTubeVideoStatus.m; sourceTree = "<group>"; };
+		C5E919E71860C854003AA3D7 /* GTLYouTubeVideoSuggestions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTLYouTubeVideoSuggestions.h; sourceTree = "<group>"; };
+		C5E919E81860C854003AA3D7 /* GTLYouTubeVideoSuggestions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTLYouTubeVideoSuggestions.m; sourceTree = "<group>"; };
+		C5E919E91860C854003AA3D7 /* GTLYouTubeVideoSuggestionsTagSuggestion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTLYouTubeVideoSuggestionsTagSuggestion.h; sourceTree = "<group>"; };
+		C5E919EA1860C855003AA3D7 /* GTLYouTubeVideoSuggestionsTagSuggestion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTLYouTubeVideoSuggestionsTagSuggestion.m; sourceTree = "<group>"; };
+		C5E919EB1860C855003AA3D7 /* GTLYouTubeVideoTopicDetails.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTLYouTubeVideoTopicDetails.h; sourceTree = "<group>"; };
+		C5E919EC1860C855003AA3D7 /* GTLYouTubeVideoTopicDetails.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTLYouTubeVideoTopicDetails.m; sourceTree = "<group>"; };
+		C5E919ED1860C855003AA3D7 /* GTLYouTubeWatchSettings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTLYouTubeWatchSettings.h; sourceTree = "<group>"; };
+		C5E919EE1860C855003AA3D7 /* GTLYouTubeWatchSettings.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTLYouTubeWatchSettings.m; sourceTree = "<group>"; };
+		C5E91A621860C89D003AA3D7 /* GoogleOpenSource.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleOpenSource.framework; sourceTree = "<group>"; };
+		C5E91A631860C89D003AA3D7 /* GooglePlus.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GooglePlus.framework; sourceTree = "<group>"; };
+		C5E91A661860C981003AA3D7 /* GTLObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GTLObject.h; sourceTree = "<group>"; };
+		C5E91A671860CAE7003AA3D7 /* GTLDefines.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GTLDefines.h; sourceTree = "<group>"; };
+		C5E91A681860CB06003AA3D7 /* GTLQuery.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GTLQuery.h; sourceTree = "<group>"; };
+		C5E91A691860CB18003AA3D7 /* GTLService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GTLService.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,9 +414,19 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C582971518603DFE003AB713 /* GoogleOpenSource.framework in Frameworks */,
+				C582972518604240003AB713 /* SystemConfiguration.framework in Frameworks */,
+				C5829A351860A465003AB713 /* CoreMedia.framework in Frameworks */,
+				C58297231860423A003AB713 /* Security.framework in Frameworks */,
+				C582972118604235003AB713 /* MediaPlayer.framework in Frameworks */,
+				C582971F1860422F003AB713 /* CoreText.framework in Frameworks */,
 				C58296E018603CE8003AB713 /* CoreGraphics.framework in Frameworks */,
-				C582971318603DFA003AB713 /* GooglePlus.framework in Frameworks */,
+				C582971D18604226003AB713 /* CoreMotion.framework in Frameworks */,
+				C5829A341860A465003AB713 /* MediaToolbox.framework in Frameworks */,
+				C5E91A641860C89D003AA3D7 /* GoogleOpenSource.framework in Frameworks */,
+				C582971B1860421F003AB713 /* CoreLocation.framework in Frameworks */,
+				C5E91A651860C89D003AA3D7 /* GooglePlus.framework in Frameworks */,
+				C582971918604217003AB713 /* AssetsLibrary.framework in Frameworks */,
+				C582971718604211003AB713 /* AddressBook.framework in Frameworks */,
 				C58296E218603CE8003AB713 /* UIKit.framework in Frameworks */,
 				C58296DE18603CE8003AB713 /* Foundation.framework in Frameworks */,
 			);
@@ -80,8 +456,18 @@
 		C58296DC18603CE8003AB713 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				C582971418603DFE003AB713 /* GoogleOpenSource.framework */,
-				C582971218603DFA003AB713 /* GooglePlus.framework */,
+				C5E91A621860C89D003AA3D7 /* GoogleOpenSource.framework */,
+				C5E91A631860C89D003AA3D7 /* GooglePlus.framework */,
+				C5829A321860A465003AB713 /* MediaToolbox.framework */,
+				C5829A331860A465003AB713 /* CoreMedia.framework */,
+				C582972418604240003AB713 /* SystemConfiguration.framework */,
+				C58297221860423A003AB713 /* Security.framework */,
+				C582972018604235003AB713 /* MediaPlayer.framework */,
+				C582971E1860422F003AB713 /* CoreText.framework */,
+				C582971C18604226003AB713 /* CoreMotion.framework */,
+				C582971A1860421F003AB713 /* CoreLocation.framework */,
+				C582971818604217003AB713 /* AssetsLibrary.framework */,
+				C582971618604211003AB713 /* AddressBook.framework */,
 				C58296DD18603CE8003AB713 /* Foundation.framework */,
 				C58296DF18603CE8003AB713 /* CoreGraphics.framework */,
 				C58296E118603CE8003AB713 /* UIKit.framework */,
@@ -93,8 +479,13 @@
 		C58296E318603CE8003AB713 /* iOSYoutubeUploadTest */ = {
 			isa = PBXGroup;
 			children = (
+				C5E919081860C854003AA3D7 /* Generated */,
 				C58296EC18603CE8003AB713 /* YTAppDelegate.h */,
 				C58296ED18603CE8003AB713 /* YTAppDelegate.m */,
+				C5E91A681860CB06003AA3D7 /* GTLQuery.h */,
+				C5E91A691860CB18003AA3D7 /* GTLService.h */,
+				C5E91A661860C981003AA3D7 /* GTLObject.h */,
+				C5E91A671860CAE7003AA3D7 /* GTLDefines.h */,
 				C58296EF18603CE8003AB713 /* Main.storyboard */,
 				C58296F218603CE8003AB713 /* YTViewController.h */,
 				C58296F318603CE8003AB713 /* YTViewController.m */,
@@ -118,7 +509,6 @@
 		C582970218603CE8003AB713 /* iOSYoutubeUploadTestTests */ = {
 			isa = PBXGroup;
 			children = (
-				C582970818603CE8003AB713 /* iOSYoutubeUploadTestTests.m */,
 				C582970318603CE8003AB713 /* Supporting Files */,
 			);
 			path = iOSYoutubeUploadTestTests;
@@ -131,6 +521,242 @@
 				C582970518603CE8003AB713 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C5E919081860C854003AA3D7 /* Generated */ = {
+			isa = PBXGroup;
+			children = (
+				C5E919091860C854003AA3D7 /* GTLQueryYouTube.h */,
+				C5E9190A1860C854003AA3D7 /* GTLQueryYouTube.m */,
+				C5E9190B1860C854003AA3D7 /* GTLServiceYouTube.h */,
+				C5E9190C1860C854003AA3D7 /* GTLServiceYouTube.m */,
+				C5E9190D1860C854003AA3D7 /* GTLYouTube.h */,
+				C5E9190F1860C854003AA3D7 /* GTLYouTubeAccessPolicy.h */,
+				C5E919101860C854003AA3D7 /* GTLYouTubeAccessPolicy.m */,
+				C5E919111860C854003AA3D7 /* GTLYouTubeActivity.h */,
+				C5E919121860C854003AA3D7 /* GTLYouTubeActivity.m */,
+				C5E919131860C854003AA3D7 /* GTLYouTubeActivityContentDetails.h */,
+				C5E919141860C854003AA3D7 /* GTLYouTubeActivityContentDetails.m */,
+				C5E919151860C854003AA3D7 /* GTLYouTubeActivityContentDetailsBulletin.h */,
+				C5E919161860C854003AA3D7 /* GTLYouTubeActivityContentDetailsBulletin.m */,
+				C5E919171860C854003AA3D7 /* GTLYouTubeActivityContentDetailsChannelItem.h */,
+				C5E919181860C854003AA3D7 /* GTLYouTubeActivityContentDetailsChannelItem.m */,
+				C5E919191860C854003AA3D7 /* GTLYouTubeActivityContentDetailsComment.h */,
+				C5E9191A1860C854003AA3D7 /* GTLYouTubeActivityContentDetailsComment.m */,
+				C5E9191B1860C854003AA3D7 /* GTLYouTubeActivityContentDetailsFavorite.h */,
+				C5E9191C1860C854003AA3D7 /* GTLYouTubeActivityContentDetailsFavorite.m */,
+				C5E9191D1860C854003AA3D7 /* GTLYouTubeActivityContentDetailsLike.h */,
+				C5E9191E1860C854003AA3D7 /* GTLYouTubeActivityContentDetailsLike.m */,
+				C5E9191F1860C854003AA3D7 /* GTLYouTubeActivityContentDetailsPlaylistItem.h */,
+				C5E919201860C854003AA3D7 /* GTLYouTubeActivityContentDetailsPlaylistItem.m */,
+				C5E919211860C854003AA3D7 /* GTLYouTubeActivityContentDetailsPromotedItem.h */,
+				C5E919221860C854003AA3D7 /* GTLYouTubeActivityContentDetailsPromotedItem.m */,
+				C5E919231860C854003AA3D7 /* GTLYouTubeActivityContentDetailsRecommendation.h */,
+				C5E919241860C854003AA3D7 /* GTLYouTubeActivityContentDetailsRecommendation.m */,
+				C5E919251860C854003AA3D7 /* GTLYouTubeActivityContentDetailsSocial.h */,
+				C5E919261860C854003AA3D7 /* GTLYouTubeActivityContentDetailsSocial.m */,
+				C5E919271860C854003AA3D7 /* GTLYouTubeActivityContentDetailsSubscription.h */,
+				C5E919281860C854003AA3D7 /* GTLYouTubeActivityContentDetailsSubscription.m */,
+				C5E919291860C854003AA3D7 /* GTLYouTubeActivityContentDetailsUpload.h */,
+				C5E9192A1860C854003AA3D7 /* GTLYouTubeActivityContentDetailsUpload.m */,
+				C5E9192B1860C854003AA3D7 /* GTLYouTubeActivityListResponse.h */,
+				C5E9192C1860C854003AA3D7 /* GTLYouTubeActivityListResponse.m */,
+				C5E9192D1860C854003AA3D7 /* GTLYouTubeActivitySnippet.h */,
+				C5E9192E1860C854003AA3D7 /* GTLYouTubeActivitySnippet.m */,
+				C5E9192F1860C854003AA3D7 /* GTLYouTubeCdnSettings.h */,
+				C5E919301860C854003AA3D7 /* GTLYouTubeCdnSettings.m */,
+				C5E919311860C854003AA3D7 /* GTLYouTubeChannel.h */,
+				C5E919321860C854003AA3D7 /* GTLYouTubeChannel.m */,
+				C5E919331860C854003AA3D7 /* GTLYouTubeChannelAuditDetails.h */,
+				C5E919341860C854003AA3D7 /* GTLYouTubeChannelAuditDetails.m */,
+				C5E919351860C854003AA3D7 /* GTLYouTubeChannelBannerResource.h */,
+				C5E919361860C854003AA3D7 /* GTLYouTubeChannelBannerResource.m */,
+				C5E919371860C854003AA3D7 /* GTLYouTubeChannelBrandingSettings.h */,
+				C5E919381860C854003AA3D7 /* GTLYouTubeChannelBrandingSettings.m */,
+				C5E919391860C854003AA3D7 /* GTLYouTubeChannelContentDetails.h */,
+				C5E9193A1860C854003AA3D7 /* GTLYouTubeChannelContentDetails.m */,
+				C5E9193B1860C854003AA3D7 /* GTLYouTubeChannelConversionPing.h */,
+				C5E9193C1860C854003AA3D7 /* GTLYouTubeChannelConversionPing.m */,
+				C5E9193D1860C854003AA3D7 /* GTLYouTubeChannelConversionPings.h */,
+				C5E9193E1860C854003AA3D7 /* GTLYouTubeChannelConversionPings.m */,
+				C5E9193F1860C854003AA3D7 /* GTLYouTubeChannelListResponse.h */,
+				C5E919401860C854003AA3D7 /* GTLYouTubeChannelListResponse.m */,
+				C5E919411860C854003AA3D7 /* GTLYouTubeChannelSettings.h */,
+				C5E919421860C854003AA3D7 /* GTLYouTubeChannelSettings.m */,
+				C5E919431860C854003AA3D7 /* GTLYouTubeChannelSnippet.h */,
+				C5E919441860C854003AA3D7 /* GTLYouTubeChannelSnippet.m */,
+				C5E919451860C854003AA3D7 /* GTLYouTubeChannelStatistics.h */,
+				C5E919461860C854003AA3D7 /* GTLYouTubeChannelStatistics.m */,
+				C5E919471860C854003AA3D7 /* GTLYouTubeChannelStatus.h */,
+				C5E919481860C854003AA3D7 /* GTLYouTubeChannelStatus.m */,
+				C5E919491860C854003AA3D7 /* GTLYouTubeChannelTopicDetails.h */,
+				C5E9194A1860C854003AA3D7 /* GTLYouTubeChannelTopicDetails.m */,
+				C5E9194B1860C854003AA3D7 /* GTLYouTubeConstants.h */,
+				C5E9194C1860C854003AA3D7 /* GTLYouTubeConstants.m */,
+				C5E9194D1860C854003AA3D7 /* GTLYouTubeContentRating.h */,
+				C5E9194E1860C854003AA3D7 /* GTLYouTubeContentRating.m */,
+				C5E9194F1860C854003AA3D7 /* GTLYouTubeGeoPoint.h */,
+				C5E919501860C854003AA3D7 /* GTLYouTubeGeoPoint.m */,
+				C5E919511860C854003AA3D7 /* GTLYouTubeGuideCategory.h */,
+				C5E919521860C854003AA3D7 /* GTLYouTubeGuideCategory.m */,
+				C5E919531860C854003AA3D7 /* GTLYouTubeGuideCategoryListResponse.h */,
+				C5E919541860C854003AA3D7 /* GTLYouTubeGuideCategoryListResponse.m */,
+				C5E919551860C854003AA3D7 /* GTLYouTubeGuideCategorySnippet.h */,
+				C5E919561860C854003AA3D7 /* GTLYouTubeGuideCategorySnippet.m */,
+				C5E919571860C854003AA3D7 /* GTLYouTubeImageSettings.h */,
+				C5E919581860C854003AA3D7 /* GTLYouTubeImageSettings.m */,
+				C5E919591860C854003AA3D7 /* GTLYouTubeIngestionInfo.h */,
+				C5E9195A1860C854003AA3D7 /* GTLYouTubeIngestionInfo.m */,
+				C5E9195B1860C854003AA3D7 /* GTLYouTubeInvideoBranding.h */,
+				C5E9195C1860C854003AA3D7 /* GTLYouTubeInvideoBranding.m */,
+				C5E9195D1860C854003AA3D7 /* GTLYouTubeInvideoPosition.h */,
+				C5E9195E1860C854003AA3D7 /* GTLYouTubeInvideoPosition.m */,
+				C5E9195F1860C854003AA3D7 /* GTLYouTubeInvideoPromotion.h */,
+				C5E919601860C854003AA3D7 /* GTLYouTubeInvideoPromotion.m */,
+				C5E919611860C854003AA3D7 /* GTLYouTubeInvideoTiming.h */,
+				C5E919621860C854003AA3D7 /* GTLYouTubeInvideoTiming.m */,
+				C5E919631860C854003AA3D7 /* GTLYouTubeLiveBroadcast.h */,
+				C5E919641860C854003AA3D7 /* GTLYouTubeLiveBroadcast.m */,
+				C5E919651860C854003AA3D7 /* GTLYouTubeLiveBroadcastContentDetails.h */,
+				C5E919661860C854003AA3D7 /* GTLYouTubeLiveBroadcastContentDetails.m */,
+				C5E919671860C854003AA3D7 /* GTLYouTubeLiveBroadcastListResponse.h */,
+				C5E919681860C854003AA3D7 /* GTLYouTubeLiveBroadcastListResponse.m */,
+				C5E919691860C854003AA3D7 /* GTLYouTubeLiveBroadcastSnippet.h */,
+				C5E9196A1860C854003AA3D7 /* GTLYouTubeLiveBroadcastSnippet.m */,
+				C5E9196B1860C854003AA3D7 /* GTLYouTubeLiveBroadcastStatus.h */,
+				C5E9196C1860C854003AA3D7 /* GTLYouTubeLiveBroadcastStatus.m */,
+				C5E9196D1860C854003AA3D7 /* GTLYouTubeLiveStream.h */,
+				C5E9196E1860C854003AA3D7 /* GTLYouTubeLiveStream.m */,
+				C5E9196F1860C854003AA3D7 /* GTLYouTubeLiveStreamContentDetails.h */,
+				C5E919701860C854003AA3D7 /* GTLYouTubeLiveStreamContentDetails.m */,
+				C5E919711860C854003AA3D7 /* GTLYouTubeLiveStreamListResponse.h */,
+				C5E919721860C854003AA3D7 /* GTLYouTubeLiveStreamListResponse.m */,
+				C5E919731860C854003AA3D7 /* GTLYouTubeLiveStreamSnippet.h */,
+				C5E919741860C854003AA3D7 /* GTLYouTubeLiveStreamSnippet.m */,
+				C5E919751860C854003AA3D7 /* GTLYouTubeLiveStreamStatus.h */,
+				C5E919761860C854003AA3D7 /* GTLYouTubeLiveStreamStatus.m */,
+				C5E919771860C854003AA3D7 /* GTLYouTubeLocalizedProperty.h */,
+				C5E919781860C854003AA3D7 /* GTLYouTubeLocalizedProperty.m */,
+				C5E919791860C854003AA3D7 /* GTLYouTubeLocalizedString.h */,
+				C5E9197A1860C854003AA3D7 /* GTLYouTubeLocalizedString.m */,
+				C5E9197B1860C854003AA3D7 /* GTLYouTubeMonitorStreamInfo.h */,
+				C5E9197C1860C854003AA3D7 /* GTLYouTubeMonitorStreamInfo.m */,
+				C5E9197D1860C854003AA3D7 /* GTLYouTubePageInfo.h */,
+				C5E9197E1860C854003AA3D7 /* GTLYouTubePageInfo.m */,
+				C5E9197F1860C854003AA3D7 /* GTLYouTubePlaylist.h */,
+				C5E919801860C854003AA3D7 /* GTLYouTubePlaylist.m */,
+				C5E919811860C854003AA3D7 /* GTLYouTubePlaylistContentDetails.h */,
+				C5E919821860C854003AA3D7 /* GTLYouTubePlaylistContentDetails.m */,
+				C5E919831860C854003AA3D7 /* GTLYouTubePlaylistItem.h */,
+				C5E919841860C854003AA3D7 /* GTLYouTubePlaylistItem.m */,
+				C5E919851860C854003AA3D7 /* GTLYouTubePlaylistItemContentDetails.h */,
+				C5E919861860C854003AA3D7 /* GTLYouTubePlaylistItemContentDetails.m */,
+				C5E919871860C854003AA3D7 /* GTLYouTubePlaylistItemListResponse.h */,
+				C5E919881860C854003AA3D7 /* GTLYouTubePlaylistItemListResponse.m */,
+				C5E919891860C854003AA3D7 /* GTLYouTubePlaylistItemSnippet.h */,
+				C5E9198A1860C854003AA3D7 /* GTLYouTubePlaylistItemSnippet.m */,
+				C5E9198B1860C854003AA3D7 /* GTLYouTubePlaylistItemStatus.h */,
+				C5E9198C1860C854003AA3D7 /* GTLYouTubePlaylistItemStatus.m */,
+				C5E9198D1860C854003AA3D7 /* GTLYouTubePlaylistListResponse.h */,
+				C5E9198E1860C854003AA3D7 /* GTLYouTubePlaylistListResponse.m */,
+				C5E9198F1860C854003AA3D7 /* GTLYouTubePlaylistPlayer.h */,
+				C5E919901860C854003AA3D7 /* GTLYouTubePlaylistPlayer.m */,
+				C5E919911860C854003AA3D7 /* GTLYouTubePlaylistSnippet.h */,
+				C5E919921860C854003AA3D7 /* GTLYouTubePlaylistSnippet.m */,
+				C5E919931860C854003AA3D7 /* GTLYouTubePlaylistStatus.h */,
+				C5E919941860C854003AA3D7 /* GTLYouTubePlaylistStatus.m */,
+				C5E919951860C854003AA3D7 /* GTLYouTubePromotedItem.h */,
+				C5E919961860C854003AA3D7 /* GTLYouTubePromotedItem.m */,
+				C5E919971860C854003AA3D7 /* GTLYouTubePromotedItemId.h */,
+				C5E919981860C854003AA3D7 /* GTLYouTubePromotedItemId.m */,
+				C5E919991860C854003AA3D7 /* GTLYouTubePropertyValue.h */,
+				C5E9199A1860C854003AA3D7 /* GTLYouTubePropertyValue.m */,
+				C5E9199B1860C854003AA3D7 /* GTLYouTubeResourceId.h */,
+				C5E9199C1860C854003AA3D7 /* GTLYouTubeResourceId.m */,
+				C5E9199D1860C854003AA3D7 /* GTLYouTubeSearchListResponse.h */,
+				C5E9199E1860C854003AA3D7 /* GTLYouTubeSearchListResponse.m */,
+				C5E9199F1860C854003AA3D7 /* GTLYouTubeSearchResult.h */,
+				C5E919A01860C854003AA3D7 /* GTLYouTubeSearchResult.m */,
+				C5E919A11860C854003AA3D7 /* GTLYouTubeSearchResultSnippet.h */,
+				C5E919A21860C854003AA3D7 /* GTLYouTubeSearchResultSnippet.m */,
+				C5E919A31860C854003AA3D7 /* GTLYouTubeSubscription.h */,
+				C5E919A41860C854003AA3D7 /* GTLYouTubeSubscription.m */,
+				C5E919A51860C854003AA3D7 /* GTLYouTubeSubscriptionContentDetails.h */,
+				C5E919A61860C854003AA3D7 /* GTLYouTubeSubscriptionContentDetails.m */,
+				C5E919A71860C854003AA3D7 /* GTLYouTubeSubscriptionListResponse.h */,
+				C5E919A81860C854003AA3D7 /* GTLYouTubeSubscriptionListResponse.m */,
+				C5E919A91860C854003AA3D7 /* GTLYouTubeSubscriptionSnippet.h */,
+				C5E919AA1860C854003AA3D7 /* GTLYouTubeSubscriptionSnippet.m */,
+				C5E919AB1860C854003AA3D7 /* GTLYouTubeSubscriptionSubscriberSnippet.h */,
+				C5E919AC1860C854003AA3D7 /* GTLYouTubeSubscriptionSubscriberSnippet.m */,
+				C5E919AD1860C854003AA3D7 /* GTLYouTubeThumbnail.h */,
+				C5E919AE1860C854003AA3D7 /* GTLYouTubeThumbnail.m */,
+				C5E919AF1860C854003AA3D7 /* GTLYouTubeThumbnailDetails.h */,
+				C5E919B01860C854003AA3D7 /* GTLYouTubeThumbnailDetails.m */,
+				C5E919B11860C854003AA3D7 /* GTLYouTubeThumbnailSetResponse.h */,
+				C5E919B21860C854003AA3D7 /* GTLYouTubeThumbnailSetResponse.m */,
+				C5E919B31860C854003AA3D7 /* GTLYouTubeTokenPagination.h */,
+				C5E919B41860C854003AA3D7 /* GTLYouTubeTokenPagination.m */,
+				C5E919B51860C854003AA3D7 /* GTLYouTubeVideo.h */,
+				C5E919B61860C854003AA3D7 /* GTLYouTubeVideo.m */,
+				C5E919B71860C854003AA3D7 /* GTLYouTubeVideoAgeGating.h */,
+				C5E919B81860C854003AA3D7 /* GTLYouTubeVideoAgeGating.m */,
+				C5E919B91860C854003AA3D7 /* GTLYouTubeVideoCategory.h */,
+				C5E919BA1860C854003AA3D7 /* GTLYouTubeVideoCategory.m */,
+				C5E919BB1860C854003AA3D7 /* GTLYouTubeVideoCategoryListResponse.h */,
+				C5E919BC1860C854003AA3D7 /* GTLYouTubeVideoCategoryListResponse.m */,
+				C5E919BD1860C854003AA3D7 /* GTLYouTubeVideoCategorySnippet.h */,
+				C5E919BE1860C854003AA3D7 /* GTLYouTubeVideoCategorySnippet.m */,
+				C5E919BF1860C854003AA3D7 /* GTLYouTubeVideoContentDetails.h */,
+				C5E919C01860C854003AA3D7 /* GTLYouTubeVideoContentDetails.m */,
+				C5E919C11860C854003AA3D7 /* GTLYouTubeVideoContentDetailsRegionRestriction.h */,
+				C5E919C21860C854003AA3D7 /* GTLYouTubeVideoContentDetailsRegionRestriction.m */,
+				C5E919C31860C854003AA3D7 /* GTLYouTubeVideoConversionPing.h */,
+				C5E919C41860C854003AA3D7 /* GTLYouTubeVideoConversionPing.m */,
+				C5E919C51860C854003AA3D7 /* GTLYouTubeVideoConversionPings.h */,
+				C5E919C61860C854003AA3D7 /* GTLYouTubeVideoConversionPings.m */,
+				C5E919C71860C854003AA3D7 /* GTLYouTubeVideoFileDetails.h */,
+				C5E919C81860C854003AA3D7 /* GTLYouTubeVideoFileDetails.m */,
+				C5E919C91860C854003AA3D7 /* GTLYouTubeVideoFileDetailsAudioStream.h */,
+				C5E919CA1860C854003AA3D7 /* GTLYouTubeVideoFileDetailsAudioStream.m */,
+				C5E919CB1860C854003AA3D7 /* GTLYouTubeVideoFileDetailsVideoStream.h */,
+				C5E919CC1860C854003AA3D7 /* GTLYouTubeVideoFileDetailsVideoStream.m */,
+				C5E919CD1860C854003AA3D7 /* GTLYouTubeVideoGetRatingResponse.h */,
+				C5E919CE1860C854003AA3D7 /* GTLYouTubeVideoGetRatingResponse.m */,
+				C5E919CF1860C854003AA3D7 /* GTLYouTubeVideoListResponse.h */,
+				C5E919D01860C854003AA3D7 /* GTLYouTubeVideoListResponse.m */,
+				C5E919D11860C854003AA3D7 /* GTLYouTubeVideoLiveStreamingDetails.h */,
+				C5E919D21860C854003AA3D7 /* GTLYouTubeVideoLiveStreamingDetails.m */,
+				C5E919D31860C854003AA3D7 /* GTLYouTubeVideoMonetizationDetails.h */,
+				C5E919D41860C854003AA3D7 /* GTLYouTubeVideoMonetizationDetails.m */,
+				C5E919D51860C854003AA3D7 /* GTLYouTubeVideoPlayer.h */,
+				C5E919D61860C854003AA3D7 /* GTLYouTubeVideoPlayer.m */,
+				C5E919D71860C854003AA3D7 /* GTLYouTubeVideoProcessingDetails.h */,
+				C5E919D81860C854003AA3D7 /* GTLYouTubeVideoProcessingDetails.m */,
+				C5E919D91860C854003AA3D7 /* GTLYouTubeVideoProcessingDetailsProcessingProgress.h */,
+				C5E919DA1860C854003AA3D7 /* GTLYouTubeVideoProcessingDetailsProcessingProgress.m */,
+				C5E919DB1860C854003AA3D7 /* GTLYouTubeVideoProjectDetails.h */,
+				C5E919DC1860C854003AA3D7 /* GTLYouTubeVideoProjectDetails.m */,
+				C5E919DD1860C854003AA3D7 /* GTLYouTubeVideoRating.h */,
+				C5E919DE1860C854003AA3D7 /* GTLYouTubeVideoRating.m */,
+				C5E919DF1860C854003AA3D7 /* GTLYouTubeVideoRecordingDetails.h */,
+				C5E919E01860C854003AA3D7 /* GTLYouTubeVideoRecordingDetails.m */,
+				C5E919E11860C854003AA3D7 /* GTLYouTubeVideoSnippet.h */,
+				C5E919E21860C854003AA3D7 /* GTLYouTubeVideoSnippet.m */,
+				C5E919E31860C854003AA3D7 /* GTLYouTubeVideoStatistics.h */,
+				C5E919E41860C854003AA3D7 /* GTLYouTubeVideoStatistics.m */,
+				C5E919E51860C854003AA3D7 /* GTLYouTubeVideoStatus.h */,
+				C5E919E61860C854003AA3D7 /* GTLYouTubeVideoStatus.m */,
+				C5E919E71860C854003AA3D7 /* GTLYouTubeVideoSuggestions.h */,
+				C5E919E81860C854003AA3D7 /* GTLYouTubeVideoSuggestions.m */,
+				C5E919E91860C854003AA3D7 /* GTLYouTubeVideoSuggestionsTagSuggestion.h */,
+				C5E919EA1860C855003AA3D7 /* GTLYouTubeVideoSuggestionsTagSuggestion.m */,
+				C5E919EB1860C855003AA3D7 /* GTLYouTubeVideoTopicDetails.h */,
+				C5E919EC1860C855003AA3D7 /* GTLYouTubeVideoTopicDetails.m */,
+				C5E919ED1860C855003AA3D7 /* GTLYouTubeWatchSettings.h */,
+				C5E919EE1860C855003AA3D7 /* GTLYouTubeWatchSettings.m */,
+			);
+			path = Generated;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -199,8 +825,122 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C5E91A231860C855003AA3D7 /* GTLYouTubeLiveStreamListResponse.m in Sources */,
+				C5E91A521860C855003AA3D7 /* GTLYouTubeVideoListResponse.m in Sources */,
+				C5E91A4F1860C855003AA3D7 /* GTLYouTubeVideoFileDetailsAudioStream.m in Sources */,
+				C5E91A0E1860C855003AA3D7 /* GTLYouTubeChannelStatus.m in Sources */,
+				C5E91A001860C855003AA3D7 /* GTLYouTubeActivityListResponse.m in Sources */,
+				C5E919F31860C855003AA3D7 /* GTLYouTubeActivity.m in Sources */,
+				C5E91A271860C855003AA3D7 /* GTLYouTubeLocalizedString.m in Sources */,
+				C5E91A201860C855003AA3D7 /* GTLYouTubeLiveBroadcastStatus.m in Sources */,
+				C5E91A3B1860C855003AA3D7 /* GTLYouTubeSearchResultSnippet.m in Sources */,
+				C5E91A061860C855003AA3D7 /* GTLYouTubeChannelBrandingSettings.m in Sources */,
+				C5E91A3E1860C855003AA3D7 /* GTLYouTubeSubscriptionListResponse.m in Sources */,
+				C5E91A1D1860C855003AA3D7 /* GTLYouTubeLiveBroadcastContentDetails.m in Sources */,
+				C5E91A591860C855003AA3D7 /* GTLYouTubeVideoRating.m in Sources */,
+				C5E91A3F1860C855003AA3D7 /* GTLYouTubeSubscriptionSnippet.m in Sources */,
+				C5E91A561860C855003AA3D7 /* GTLYouTubeVideoProcessingDetails.m in Sources */,
+				C5E91A1A1860C855003AA3D7 /* GTLYouTubeInvideoPromotion.m in Sources */,
+				C5E91A571860C855003AA3D7 /* GTLYouTubeVideoProcessingDetailsProcessingProgress.m in Sources */,
+				C5E91A361860C855003AA3D7 /* GTLYouTubePromotedItemId.m in Sources */,
+				C5E91A141860C855003AA3D7 /* GTLYouTubeGuideCategoryListResponse.m in Sources */,
+				C5E91A441860C855003AA3D7 /* GTLYouTubeTokenPagination.m in Sources */,
+				C5E91A2F1860C855003AA3D7 /* GTLYouTubePlaylistItemSnippet.m in Sources */,
+				C5E91A2C1860C855003AA3D7 /* GTLYouTubePlaylistItem.m in Sources */,
+				C5E91A311860C855003AA3D7 /* GTLYouTubePlaylistListResponse.m in Sources */,
+				C5E91A301860C855003AA3D7 /* GTLYouTubePlaylistItemStatus.m in Sources */,
 				C58296F418603CE8003AB713 /* YTViewController.m in Sources */,
+				C5E919FF1860C855003AA3D7 /* GTLYouTubeActivityContentDetailsUpload.m in Sources */,
+				C5E91A5A1860C855003AA3D7 /* GTLYouTubeVideoRecordingDetails.m in Sources */,
+				C5E91A511860C855003AA3D7 /* GTLYouTubeVideoGetRatingResponse.m in Sources */,
+				C5E91A551860C855003AA3D7 /* GTLYouTubeVideoPlayer.m in Sources */,
+				C5E919F51860C855003AA3D7 /* GTLYouTubeActivityContentDetailsBulletin.m in Sources */,
 				C58296EA18603CE8003AB713 /* main.m in Sources */,
+				C5E91A581860C855003AA3D7 /* GTLYouTubeVideoProjectDetails.m in Sources */,
+				C5E919FB1860C855003AA3D7 /* GTLYouTubeActivityContentDetailsPromotedItem.m in Sources */,
+				C5E91A531860C855003AA3D7 /* GTLYouTubeVideoLiveStreamingDetails.m in Sources */,
+				C5E91A021860C855003AA3D7 /* GTLYouTubeCdnSettings.m in Sources */,
+				C5E91A3C1860C855003AA3D7 /* GTLYouTubeSubscription.m in Sources */,
+				C5E91A421860C855003AA3D7 /* GTLYouTubeThumbnailDetails.m in Sources */,
+				C5E91A501860C855003AA3D7 /* GTLYouTubeVideoFileDetailsVideoStream.m in Sources */,
+				C5E91A281860C855003AA3D7 /* GTLYouTubeMonitorStreamInfo.m in Sources */,
+				C5E919FE1860C855003AA3D7 /* GTLYouTubeActivityContentDetailsSubscription.m in Sources */,
+				C5E91A161860C855003AA3D7 /* GTLYouTubeImageSettings.m in Sources */,
+				C5E91A071860C855003AA3D7 /* GTLYouTubeChannelContentDetails.m in Sources */,
+				C5E91A5F1860C855003AA3D7 /* GTLYouTubeVideoSuggestionsTagSuggestion.m in Sources */,
+				C5E91A481860C855003AA3D7 /* GTLYouTubeVideoCategoryListResponse.m in Sources */,
+				C5E91A081860C855003AA3D7 /* GTLYouTubeChannelConversionPing.m in Sources */,
+				C5E91A011860C855003AA3D7 /* GTLYouTubeActivitySnippet.m in Sources */,
+				C5E91A471860C855003AA3D7 /* GTLYouTubeVideoCategory.m in Sources */,
+				C5E91A1C1860C855003AA3D7 /* GTLYouTubeLiveBroadcast.m in Sources */,
+				C5E91A041860C855003AA3D7 /* GTLYouTubeChannelAuditDetails.m in Sources */,
+				C5E919FA1860C855003AA3D7 /* GTLYouTubeActivityContentDetailsPlaylistItem.m in Sources */,
+				C5E91A391860C855003AA3D7 /* GTLYouTubeSearchListResponse.m in Sources */,
+				C5E91A601860C855003AA3D7 /* GTLYouTubeVideoTopicDetails.m in Sources */,
+				C5E919FC1860C855003AA3D7 /* GTLYouTubeActivityContentDetailsRecommendation.m in Sources */,
+				C5E91A151860C855003AA3D7 /* GTLYouTubeGuideCategorySnippet.m in Sources */,
+				C5E91A111860C855003AA3D7 /* GTLYouTubeContentRating.m in Sources */,
+				C5E91A2E1860C855003AA3D7 /* GTLYouTubePlaylistItemListResponse.m in Sources */,
+				C5E919F71860C855003AA3D7 /* GTLYouTubeActivityContentDetailsComment.m in Sources */,
+				C5E91A321860C855003AA3D7 /* GTLYouTubePlaylistPlayer.m in Sources */,
+				C5E91A5C1860C855003AA3D7 /* GTLYouTubeVideoStatistics.m in Sources */,
+				C5E91A101860C855003AA3D7 /* GTLYouTubeConstants.m in Sources */,
+				C5E91A431860C855003AA3D7 /* GTLYouTubeThumbnailSetResponse.m in Sources */,
+				C5E91A241860C855003AA3D7 /* GTLYouTubeLiveStreamSnippet.m in Sources */,
+				C5E91A4B1860C855003AA3D7 /* GTLYouTubeVideoContentDetailsRegionRestriction.m in Sources */,
+				C5E919F21860C855003AA3D7 /* GTLYouTubeAccessPolicy.m in Sources */,
+				C5E91A221860C855003AA3D7 /* GTLYouTubeLiveStreamContentDetails.m in Sources */,
+				C5E91A4D1860C855003AA3D7 /* GTLYouTubeVideoConversionPings.m in Sources */,
+				C5E919FD1860C855003AA3D7 /* GTLYouTubeActivityContentDetailsSocial.m in Sources */,
+				C5E91A611860C855003AA3D7 /* GTLYouTubeWatchSettings.m in Sources */,
+				C5E91A0B1860C855003AA3D7 /* GTLYouTubeChannelSettings.m in Sources */,
+				C5E91A2D1860C855003AA3D7 /* GTLYouTubePlaylistItemContentDetails.m in Sources */,
+				C5E91A291860C855003AA3D7 /* GTLYouTubePageInfo.m in Sources */,
+				C5E91A401860C855003AA3D7 /* GTLYouTubeSubscriptionSubscriberSnippet.m in Sources */,
+				C5E919F41860C855003AA3D7 /* GTLYouTubeActivityContentDetails.m in Sources */,
+				C5E91A171860C855003AA3D7 /* GTLYouTubeIngestionInfo.m in Sources */,
+				C5E91A0A1860C855003AA3D7 /* GTLYouTubeChannelListResponse.m in Sources */,
+				C5E91A3D1860C855003AA3D7 /* GTLYouTubeSubscriptionContentDetails.m in Sources */,
+				C5E91A331860C855003AA3D7 /* GTLYouTubePlaylistSnippet.m in Sources */,
+				C5E91A451860C855003AA3D7 /* GTLYouTubeVideo.m in Sources */,
+				C5E91A091860C855003AA3D7 /* GTLYouTubeChannelConversionPings.m in Sources */,
+				C5E91A4C1860C855003AA3D7 /* GTLYouTubeVideoConversionPing.m in Sources */,
+				C5E91A1F1860C855003AA3D7 /* GTLYouTubeLiveBroadcastSnippet.m in Sources */,
+				C5E91A461860C855003AA3D7 /* GTLYouTubeVideoAgeGating.m in Sources */,
+				C5E91A4E1860C855003AA3D7 /* GTLYouTubeVideoFileDetails.m in Sources */,
+				C5E91A1E1860C855003AA3D7 /* GTLYouTubeLiveBroadcastListResponse.m in Sources */,
+				C5E91A121860C855003AA3D7 /* GTLYouTubeGeoPoint.m in Sources */,
+				C5E91A351860C855003AA3D7 /* GTLYouTubePromotedItem.m in Sources */,
+				C5E91A4A1860C855003AA3D7 /* GTLYouTubeVideoContentDetails.m in Sources */,
+				C5E91A261860C855003AA3D7 /* GTLYouTubeLocalizedProperty.m in Sources */,
+				C5E91A181860C855003AA3D7 /* GTLYouTubeInvideoBranding.m in Sources */,
+				C5E91A5D1860C855003AA3D7 /* GTLYouTubeVideoStatus.m in Sources */,
+				C5E91A191860C855003AA3D7 /* GTLYouTubeInvideoPosition.m in Sources */,
+				C5E91A131860C855003AA3D7 /* GTLYouTubeGuideCategory.m in Sources */,
+				C5E91A491860C855003AA3D7 /* GTLYouTubeVideoCategorySnippet.m in Sources */,
+				C5E919F91860C855003AA3D7 /* GTLYouTubeActivityContentDetailsLike.m in Sources */,
+				C5E91A341860C855003AA3D7 /* GTLYouTubePlaylistStatus.m in Sources */,
+				C5E91A381860C855003AA3D7 /* GTLYouTubeResourceId.m in Sources */,
+				C5E919EF1860C855003AA3D7 /* GTLQueryYouTube.m in Sources */,
+				C5E91A211860C855003AA3D7 /* GTLYouTubeLiveStream.m in Sources */,
+				C5E91A0D1860C855003AA3D7 /* GTLYouTubeChannelStatistics.m in Sources */,
+				C5E91A2B1860C855003AA3D7 /* GTLYouTubePlaylistContentDetails.m in Sources */,
+				C5E91A411860C855003AA3D7 /* GTLYouTubeThumbnail.m in Sources */,
+				C5E91A5B1860C855003AA3D7 /* GTLYouTubeVideoSnippet.m in Sources */,
+				C5E91A0F1860C855003AA3D7 /* GTLYouTubeChannelTopicDetails.m in Sources */,
+				C5E91A3A1860C855003AA3D7 /* GTLYouTubeSearchResult.m in Sources */,
+				C5E91A031860C855003AA3D7 /* GTLYouTubeChannel.m in Sources */,
+				C5E91A2A1860C855003AA3D7 /* GTLYouTubePlaylist.m in Sources */,
+				C5E91A0C1860C855003AA3D7 /* GTLYouTubeChannelSnippet.m in Sources */,
+				C5E919F01860C855003AA3D7 /* GTLServiceYouTube.m in Sources */,
+				C5E919F81860C855003AA3D7 /* GTLYouTubeActivityContentDetailsFavorite.m in Sources */,
+				C5E91A251860C855003AA3D7 /* GTLYouTubeLiveStreamStatus.m in Sources */,
+				C5E91A541860C855003AA3D7 /* GTLYouTubeVideoMonetizationDetails.m in Sources */,
+				C5E91A5E1860C855003AA3D7 /* GTLYouTubeVideoSuggestions.m in Sources */,
+				C5E91A051860C855003AA3D7 /* GTLYouTubeChannelBannerResource.m in Sources */,
+				C5E919F61860C855003AA3D7 /* GTLYouTubeActivityContentDetailsChannelItem.m in Sources */,
+				C5E91A1B1860C855003AA3D7 /* GTLYouTubeInvideoTiming.m in Sources */,
+				C5E91A371860C855003AA3D7 /* GTLYouTubePropertyValue.m in Sources */,
 				C58296EE18603CE8003AB713 /* YTAppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -312,15 +1052,26 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					/Users/uptown/Projects/iOSYoutubeUploadTest,
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "iOSYoutubeUploadTest/iOSYoutubeUploadTest-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+				);
 				INFOPLIST_FILE = "iOSYoutubeUploadTest/iOSYoutubeUploadTest-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "1B3BB125-5DFB-493A-88CD-C5277CB5EEB2";
+				USER_HEADER_SEARCH_PATHS = "";
 				VALID_ARCHS = "armv7 armv7s";
 				WRAPPER_EXTENSION = app;
 			};
@@ -337,9 +1088,18 @@
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "iOSYoutubeUploadTest/iOSYoutubeUploadTest-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+				);
 				INFOPLIST_FILE = "iOSYoutubeUploadTest/iOSYoutubeUploadTest-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "";
 				VALID_ARCHS = "armv7 armv7s";
 				WRAPPER_EXTENSION = app;
 			};

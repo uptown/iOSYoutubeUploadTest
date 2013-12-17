@@ -7,7 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <GooglePlus/GooglePlus.h>
+#import <MediaPlayer/MediaPlayer.h>
+#import <MobileCoreServices/MobileCoreServices.h>
 
-@interface YTViewController : UIViewController
+@interface YTViewController : UIViewController <GPPSignInDelegate, UIImagePickerControllerDelegate, UINavigationControllerDelegate>
+@property (copy,   nonatomic) NSURL *movieURL;
+@property (strong, nonatomic) MPMoviePlayerController *movieController;
 
 @end
