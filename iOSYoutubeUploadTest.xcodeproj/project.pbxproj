@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C546481018B6EB0800976AFC /* GoogleOpenSource.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C546480E18B6EB0800976AFC /* GoogleOpenSource.framework */; };
+		C546481118B6EB0800976AFC /* GooglePlus.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C546480F18B6EB0800976AFC /* GooglePlus.framework */; };
 		C58296DE18603CE8003AB713 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C58296DD18603CE8003AB713 /* Foundation.framework */; };
 		C58296E018603CE8003AB713 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C58296DF18603CE8003AB713 /* CoreGraphics.framework */; };
 		C58296E218603CE8003AB713 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C58296E118603CE8003AB713 /* UIKit.framework */; };
@@ -140,11 +142,11 @@
 		C5E91A5F1860C855003AA3D7 /* GTLYouTubeVideoSuggestionsTagSuggestion.m in Sources */ = {isa = PBXBuildFile; fileRef = C5E919EA1860C855003AA3D7 /* GTLYouTubeVideoSuggestionsTagSuggestion.m */; };
 		C5E91A601860C855003AA3D7 /* GTLYouTubeVideoTopicDetails.m in Sources */ = {isa = PBXBuildFile; fileRef = C5E919EC1860C855003AA3D7 /* GTLYouTubeVideoTopicDetails.m */; };
 		C5E91A611860C855003AA3D7 /* GTLYouTubeWatchSettings.m in Sources */ = {isa = PBXBuildFile; fileRef = C5E919EE1860C855003AA3D7 /* GTLYouTubeWatchSettings.m */; };
-		C5E91A641860C89D003AA3D7 /* GoogleOpenSource.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5E91A621860C89D003AA3D7 /* GoogleOpenSource.framework */; };
-		C5E91A651860C89D003AA3D7 /* GooglePlus.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5E91A631860C89D003AA3D7 /* GooglePlus.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C546480E18B6EB0800976AFC /* GoogleOpenSource.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleOpenSource.framework; sourceTree = "<group>"; };
+		C546480F18B6EB0800976AFC /* GooglePlus.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GooglePlus.framework; sourceTree = "<group>"; };
 		C58296DA18603CE8003AB713 /* iOSYoutubeUploadTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSYoutubeUploadTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C58296DD18603CE8003AB713 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		C58296DF18603CE8003AB713 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -422,9 +424,9 @@
 				C58296E018603CE8003AB713 /* CoreGraphics.framework in Frameworks */,
 				C582971D18604226003AB713 /* CoreMotion.framework in Frameworks */,
 				C5829A341860A465003AB713 /* MediaToolbox.framework in Frameworks */,
-				C5E91A641860C89D003AA3D7 /* GoogleOpenSource.framework in Frameworks */,
+				C546481018B6EB0800976AFC /* GoogleOpenSource.framework in Frameworks */,
 				C582971B1860421F003AB713 /* CoreLocation.framework in Frameworks */,
-				C5E91A651860C89D003AA3D7 /* GooglePlus.framework in Frameworks */,
+				C546481118B6EB0800976AFC /* GooglePlus.framework in Frameworks */,
 				C582971918604217003AB713 /* AssetsLibrary.framework in Frameworks */,
 				C582971718604211003AB713 /* AddressBook.framework in Frameworks */,
 				C58296E218603CE8003AB713 /* UIKit.framework in Frameworks */,
@@ -456,6 +458,8 @@
 		C58296DC18603CE8003AB713 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				C546480E18B6EB0800976AFC /* GoogleOpenSource.framework */,
+				C546480F18B6EB0800976AFC /* GooglePlus.framework */,
 				C5E91A621860C89D003AA3D7 /* GoogleOpenSource.framework */,
 				C5E91A631860C89D003AA3D7 /* GooglePlus.framework */,
 				C5829A321860A465003AB713 /* MediaToolbox.framework */,
@@ -1056,6 +1060,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					/Users/uptown/Projects/iOSYoutubeUploadTest,
+					/Users/uptown/Projects/iOSProjects/iOSYoutubeUploadTest,
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "iOSYoutubeUploadTest/iOSYoutubeUploadTest-Prefix.pch";
@@ -1085,6 +1090,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					/Users/uptown/Projects/iOSYoutubeUploadTest,
+					/Users/uptown/Projects/iOSProjects/iOSYoutubeUploadTest,
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "iOSYoutubeUploadTest/iOSYoutubeUploadTest-Prefix.pch";
